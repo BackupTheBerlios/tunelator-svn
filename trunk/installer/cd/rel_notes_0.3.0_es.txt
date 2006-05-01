@@ -1,0 +1,75 @@
+Tunelator 0.3.0 Notas de Versión
+
+Copyright (c) 2006 Juan Alvarez Ferrando
+
+Distribuido bajo licencia GNU GPL versión 2, consulte los
+términos de licencia en http://www.gnu.org/copyleft/gpl.html
+
+
+Esta es la primera versión pública de Tunelator, esperamos que
+llegue a ser util para muchos y también que los usuarios nos
+ayudan a mejorarlo y añadirle capacidades. ¡Disfrutenlo!
+
+Aunque no conocemos inconvenientes para que pudiera funcionar en otros
+sistemas operativos distintos de Windows, Tunelator 0.3.0 no ha sido 
+probado en ellos ni en máquinas virtuales u otros entornos. Un objetivo
+futuro es liberar un instalador probado al menos en Linux.
+
+Tunelator está diseñado para ser fácilmente instalado por los
+usuarios finales. Si tiene un JRE 1.5 o posterior instalado en su
+sistema podrá ejecutar directamente el ejecutable del instalador.
+
+Para cear un CD o carpeta de instalación capaz de instalar la aplicación
+incluso en sistemas que no tengan un JRE adecuado instalado, necesita 
+lo siguiente:
+
+- El fichero del instalador: tunelator-0.3.0.exe
+- La carpeta 'jre' que resulta de la instalación de un Java JRE 1.5
+- Aunque no es necesario para el instalador, requerimos que en todos
+  los medios de instalación se incluya una copia de la carpeta
+  'License' o del fichero comprimido 'license.zip' en el que se 
+  encuentra en la zona de descargas del proyecto, para difundir 
+  más eficazmente los términos de la licencia GNU GPL.
+
+Copie todo esto en la misma carpeta de un disco o grave un CD o 
+DVD con ello y ya tendrá un soporte de instalación válido. 
+
+El instalador incluye un JRE 1.5.0_06 con Java3D 1.3.2 instalado, 
+que se copia en la carpeta de intalación que elija en el instalador.
+Puede sustituirlos por otro JRE 1.5 o posterior y/o por otra versión
+de Java3D pero asumiendo usted mismo el riesgo de que no funcione. Por
+favor cuéntenos en los foros si alguna otra combinación ha funcionado
+para usted, o si ha necesitado usarla para solucionar un problema.
+
+Tunelator utiliza la versión de Java 3D 1.3.2 que soporta tarjetas Nvidia, 
+ATI (CATALYST 5.3 o posterior para Windows) y Matrox (con Z-Buffer 
+activado). Existen algunos problemas conocidos en Java3D, con algunas 
+tarjetas, especialmente las ATI. No podemos probar el programa con una 
+variedad de tarjetas como sería nuestro deseo, pero trataremos de ayudar 
+a los usuarios con los problemas que encuentren.
+ 
+Las soluciones a problemas de este tipo habitualmente implican 
+modificaciones en la configuraciónde su tarjeta gráfica y/o cambiar a una 
+versión posterior de Java3D.
+
+Compartiendo sus experiencias puede ayudar a otros usuarios, y a que
+mejoremos Tunelator por lo que le rogamos que lo haga en los foros del 
+proyecto.
+
+Cuestiones conocidas:
+------------------------------------------------------------------------
+
+- Cuando se está en la tarjeta de previsualización no es posible cambiar
+el ancho del panel izquierdo que contiene el árbol de trabajos y perfiles.
+Cambie a la tarjeta de datos y podrá hacerlo. Esta es una cuestión
+relacionada con la integración de Java3D con el interface Swing, que no
+podemos solucionar por el momento. 
+
+- Cuando se editan datos directamente sobre la tabla, y posiblemente en 
+otras ocasiones, no se actualiza al instante el estado del botón deshacer.
+Este problema se solucionará en breve.
+
+Para reportar problemas, compartir experiencias y ficheros de ejemplo,
+descargar la aplicación, etc. acuda a la página del proyecto:
+
+http://tunelator.berlios.de

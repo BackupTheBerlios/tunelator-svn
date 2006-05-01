@@ -1,0 +1,14 @@
+<shortcuts>
+   <skipIfNotSupported/>
+   <programGroup defaultName="Tunelator $VERSION" location="applications"/>
+   <shortcut name="Tunelator $VERSION" 
+             target="$INSTALL_PATH/tunelator.exe"
+             workingDirectory="$INSTALL_PATH"
+             commandLine=""
+             description="Tunelator $VERSION"
+             iconFile="$INSTALL_PATH/tunelator.ico"
+             iconIndex="0"
+             initialState="normal" 
+             programGroup="yes"
+             desktop="yes"/>
+</shortcuts>

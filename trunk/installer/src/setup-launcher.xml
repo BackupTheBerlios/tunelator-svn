@@ -1,0 +1,37 @@
+<launch4jConfig>
+  <headerType>0</headerType>
+  <jar>C:\Proyectos\tunelator\installer\tunelator-install.jar</jar>
+  <outfile>C:\Proyectos\tunelator\installer\cd\tunelator-setup.exe</outfile>
+  <errTitle>Tunelator</errTitle>
+  <jarArgs></jarArgs>
+  <chdir>.</chdir>
+  <customProcName>true</customProcName>
+  <stayAlive>false</stayAlive>
+  <icon>C:\Proyectos\tunelator\images\tunelator.ico</icon>
+  <jre>
+    <path>jre</path>
+    <minVersion>1.4.2_07</minVersion>
+    <maxVersion>1.5.0_06</maxVersion>
+    <initialHeapSize>0</initialHeapSize>
+    <maxHeapSize>0</maxHeapSize>
+    <args></args>
+  </jre>
+  <splash>
+    <file>C:\Proyectos\tunelator\images\splash.bmp</file>
+    <waitForWindow>true</waitForWindow>
+    <timeout>60</timeout>
+    <timeoutErr>false</timeoutErr>
+  </splash>
+  <versionInfo>
+    <fileVersion>0.3.0.0</fileVersion>
+    <txtFileVersion>0.3.0</txtFileVersion>
+    <fileDescription>Tunelator 0.3.0 Installer</fileDescription>
+    <copyright>2005, Juan Alvarez Ferrando</copyright>
+    <productVersion>0.3.0.0</productVersion>
+    <txtProductVersion>0.3.0</txtProductVersion>
+    <productName>Tunelator</productName>
+    <companyName>Juan Alvarez Ferrando</companyName>
+    <internalName>tunelator-setup</internalName>
+    <originalFilename>tunelator-setup.exe</originalFilename>
+  </versionInfo>
+</launch4jConfig>
