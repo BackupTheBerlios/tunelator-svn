@@ -1,0 +1,83 @@
+[1.0] (Future)
+- Add online help
+- Preview 2D DXF export
+- Triangulate 3D model in preview
+- Calculate aproximation of axis from point coordinates and distances
+  to the axis.
+- Detect profile correspondence of points using calculated axis
+- Load design axis from input file
+- Draw design axis on preview
+- Detect profile of each point using design or calculated axis
+- New Reader: XML format (LandXML): axis
+- User preferences dialog:
+  - Log level
+  - DXF export options (text size, line color...)
+- Save workspace configuration and user preferences
+[0.3.0] (Current)
+- License under GPL version 2
+- New exe launcher for both installer and application, with splash
+  screen.
+- HTML about dialog
+- New logo
+- Export file to DXF format 2D.
+- Export file to DXF format 3D.
+- Added attribute "position" to give control on the order of the points in
+  the profile.
+- Advanced user interface:
+	- Graphical display
+		- New tab beside the points table tab panel
+		- Graphical display in 3D of the profiles in the selected file
+		- Zoom in and out
+		- Translate around the scene
+		- Authomatically refresh preview on data changes.
+	- Job management tree structure formed by jobs, files
+	  and profiles in each file.
+	- Editable table in a tabbed panel
+	- Application menu:
+		- Add job
+		- Remove job
+		- Add file to job
+		- Remove file
+		- Save changes
+		- Save all changes
+		- Save as
+		- Export (MDT, Prowin and Ispol formats)
+		- Unlimited undo
+		- Select all points in the table
+		- Remove selected points
+		- Remove selected profiles
+		- Edit points (with dialog)
+		- Add points (with dialog)
+		- About dialog
+	- Edit points dialog to modify same attriutes of a set of
+	  points or edit a single point's data. With HTML help side
+	  bar.
+	- Add points dialog (with HTML side bar)
+	- Toolbar (same options as in the menu)
+	- Custom icons for toolbar
+- Consistent error management
+- Improved log messages
+[0.2]
+- Separate actions in reader, transformer and writer plugins
+- Reader: Plain text, space separated separated column format
+- Transformer: Sort by Theoric PK
+- Transformer: Number points in each PK in the order they appear
+  in the input file.
+- Transformer: Correct asignment of points in the test profile to 
+  the theoric PK of the first real profile, when user has entered
+  a PK by hand. Applied in every case.
+- Transformer: Set same date and time of the first point of each 
+  profile to the rest of points of that same profile.
+- Writer: MDT format
+- Writer: Prowin format
+- Writer: Ispol format
+- Use a singleton to access application resources
+- Generate log file through a singleton class
+[0.1]
+- Read plain files 
+- Write MDT output
+- Write ProWin output
+- Write Ispol output
+- Image based about dialog
+- IzPack Installer with license panel
+- License validity and expiration checks on startup

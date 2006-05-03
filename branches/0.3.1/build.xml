@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<!-- ====================================================================== 
+     1-may-2006                                                        
+
+     Tunelator 0.3.0    
+                   
+	 Tunelator surveying software.
+	  
+	 Copyright (C) 2005 Juan Alvarez Ferrando
+	  
+	 This program is free software; you can redistribute it and/or
+	 modify it under the terms of the GNU General Public License
+	 version 2 as published by the Free Software Foundation.
+	 
+	 This program is distributed in the hope that it will be useful,
+	 but WITHOUT ANY WARRANTY; without even the implied warranty of
+	 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	 GNU General Public License for more details.
+	 
+	 You should have received a copy of the GNU General Public License
+	 along with this program; if not, write to the Free Software
+	 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, 
+	 MA  02110-1301, USA.
+     
+     ====================================================================== -->
+<project name="Tunelator" default="build.pack" basedir="c:/proyectos/tunelator/">
+    <description>
+            Tunelator ${project.version}. Juan Alvarez Ferrando
+    </description>
+	
+<!-- Project properties -->
+	<property name="project.version" value="0.3.0"/>
+	<property name="project.jarFileName" value="tunelator-${project.version}.jar"/>
+	<property name="project.sourceDir" value="${basedir}/src"/>
+	<property name="project.binDir" value="${basedir}/bin"/>
+	<property name="project.libDir" value="${basedir}/lib"/>
+	<property name="project.buildDir" value="${basedir}/build"/>
+	<property name="project.installer.dir" value="${basedir}/installer"/>
+	<property name="project.installer.src" value="${project.installer.dir}/src"/>
+	<property name="project.cd.dir" value="${project.installer.dir}/cd"/>
+	<property name="project.manifest" value="${project.buildDir}/META-INF/MANIFEST.MF"/>
+
+	<property name="izpack.dir" value="c:/proyectos/izpack"/>
+	
+	<taskdef name="izpack" classpath="${izpack.dir}/lib/standalone-compiler.jar"
+ 		classname="com.izforge.izpack.ant.IzPackTask"/>
+	
+	<target name="build.installer" depends="build.launcher">
+		<echo message="Creates the installer"/>
+		<izpack input="${project.installer.src}/tunelator-install.xml"
+                    output="${project.installer.dir}/tunelator-install.jar"
+                    installerType="standard"
+                    basedir="${basedir}"
+                    izPackDir="${izpack.dir}/"/>
+	</target>	
+	
+	<path id="classpath">
+		<pathelement location="${project.binDir}"/>
+		<fileset dir="${project.libDir}" includes="**/*.jar"/>
+	</path>
+		
+    <target name="build.src" depends="clean">
+    	
+        <javac srcdir="${project.sourceDir}"
+            destdir="${project.binDir}"
+            optimize="on">
+            <classpath refid="classpath" />
+            <include name="**/es/tunelator/**/*.java" />
+        </javac >
+
+        <copy todir="${project.binDir}" >
+            <fileset dir="${project.sourceDir}"
+                includes="**/es/tunelator/**/*.properties,
+                        **/es/tunelator/images/*"/>
+        </copy >
+    </target >
+	
+	<property name="launch4j.dir" location="c:/Archivos de Programa/launch4j" />
+
+	<taskdef name="launch4j"  classname="net.sf.launch4j.ant.Launch4jTask"  
+		classpath="${launch4j.dir}/launch4j.jar    :${launch4j.dir}/lib/xstream.jar" />
+
+	<target name="build.setupLauncher" depends="build.installer">
+    	<launch4j configFile="${project.installer.src}/setup-launcher.xml" 
+    	          outfile="${project.installer.dir}/cd/setup.exe"
+    	          fileVersion="${project.version}.0"
+    	          txtFileVersion="${project.version}.0"
+    	          productVersion="${project.version}.0"
+    	          txtProductVersion="${project.version}.0"/>
+    </target>
+
+    <target name="build.launcher" depends="build.pack">
+    	<launch4j configFile="${project.installer.src}/tunelator-launcher.xml" 
+    	          outfile="${project.installer.dir}/launcher/tunelator.exe"
+    	          fileVersion="${project.version}.0"
+    	          txtFileVersion="${project.version}.0"
+    	          productVersion="${project.version}.0"
+    	          txtProductVersion="${project.version}.0"/>
+    </target>
+	
+    <target name="build.pack" depends="build.src">
+	<jar destfile="${project.buildDir}/${project.jarFileName}" 
+            manifest="${project.manifest}">
+            <fileset dir="${project.binDir}" includes="**/*.*" excludes="**/SVN/*.*"/>
+        </jar>
+    </target>
+    
+    <target name="clean">
+        <delete>
+            <fileset dir="${project.binDir}" includes="**/*.*" excludes="**/SVN/*.*"/>
+        </delete>
+        <delete>
+            <fileset dir="${project.buildDir}" includes="${project.jarFileName}"/>
+         </delete>
+    </target>
+    
+    <target name="run.main" depends="build.pack">
+        <java jar="${project.buildDir}/${project.jarFileName}" fork="true">
+        	<!--
+        	The sun.java2D.noddraw define is set to true to avoid a problem, at least
+        	with ATI cards, that provokes distortion of the figures in the preview when
+        	the window is resized. 
+        	-->
+        	<classpath refid="classpath"/>
+            <arg value="-Dinstall.dir=${project.binDir} -Dsun.java2d.noddraw=true"/>
+        </java>
+    </target>
+</project>
+

@@ -1,0 +1,3827 @@
+<?xml version="1.0"?>
+<application name="scan/cheked points">
+<points>
+ <point>
+  <pointId>--------</pointId>
+  <easting>     1.00</easting>
+  <northing>      1.00</northing>
+  <ortoHeight>   1.00</ortoHeight>
+  <definedChainage>    1.00</definedChainage>
+  <currentChainage>    1.00</currentChainage>
+  <offsetFromCenterLine> 1.00</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine> 1.00</heightDifferenceFromCenterLine>
+  <date>1.00-1.00-1.00</date>
+  <time>1.00:1.00:1.00</time>
+  <codemdt>30</codemdt>
+ </point>
+ <point>
+  <pointId>--------</pointId>
+  <easting>     1.00</easting>
+  <northing>      1.00</northing>
+  <ortoHeight>   1.00</ortoHeight>
+  <definedChainage>    1.00</definedChainage>
+  <currentChainage>    1.00</currentChainage>
+  <offsetFromCenterLine> 1.00</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine> 1.00</heightDifferenceFromCenterLine>
+  <date>1.00-1.00-1.00</date>
+  <time>1.00:1.00:1.00</time>
+  <codemdt>30</codemdt>
+ </point>
+ <point>
+  <pointId> 5000</pointId>
+  <easting>279884.844</easting>
+  <northing>4753133.851</northing>
+  <ortoHeight>1138.271</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>-4.643</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.123</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:06:02</time>
+  <codemdt>30</codemdt>
+ </point>
+ <point>
+  <pointId> 5001</pointId>
+  <easting>279884.750</easting>
+  <northing>4753133.761</northing>
+  <ortoHeight>1138.751</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>-4.772</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.603</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:06:26</time>
+  <codemdt>30</codemdt>
+ </point>
+ <point>
+  <pointId> 5002</pointId>
+  <easting>279884.729</easting>
+  <northing>4753133.742</northing>
+  <ortoHeight>1139.249</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>-4.800</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.100</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:06:29</time>
+  <codemdt>30</codemdt>
+ </point>
+ <point>
+  <pointId> 5003</pointId>
+  <easting>279884.743</easting>
+  <northing>4753133.755</northing>
+  <ortoHeight>1139.760</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>-4.781</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.611</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:06:33</time>
+  <codemdt>30</codemdt>
+ </point>
+ <point>
+  <pointId> 5004</pointId>
+  <easting>279884.754</easting>
+  <northing>4753133.765</northing>
+  <ortoHeight>1140.322</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>-4.767</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.173</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:06:36</time>
+  <codemdt>30</codemdt>
+ </point>
+ <point>
+  <pointId> 5005</pointId>
+  <easting>279884.798</easting>
+  <northing>4753133.807</northing>
+  <ortoHeight>1140.935</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>-4.706</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.786</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:06:39</time>
+  <codemdt>30</codemdt>
+ </point>
+ <point>
+  <pointId> 5006</pointId>
+  <easting>279884.961</easting>
+  <northing>4753133.962</northing>
+  <ortoHeight>1141.461</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>-4.481</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.313</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:06:43</time>
+  <codemdt>30</codemdt>
+ </point>
+ <point>
+  <pointId> 5007</pointId>
+  <easting>279885.196</easting>
+  <northing>4753134.184</northing>
+  <ortoHeight>1141.922</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>-4.158</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.773</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:06:46</time>
+  <codemdt>30</codemdt>
+ </point>
+ <point>
+  <pointId> 5008</pointId>
+  <easting>279885.452</easting>
+  <northing>4753134.425</northing>
+  <ortoHeight>1142.454</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>-3.806</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.306</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:06:49</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5009</pointId>
+  <easting>279885.764</easting>
+  <northing>4753134.720</northing>
+  <ortoHeight>1142.905</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>-3.377</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.756</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:06:53</time>
+  <codemdt>30</codemdt>
+ </point>
+ <point>
+  <pointId> 5010</pointId>
+  <easting>279886.114</easting>
+  <northing>4753135.051</northing>
+  <ortoHeight>1143.392</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>-2.895</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.244</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:06:55</time>
+  <codemdt>30</codemdt>
+ </point>
+ <point>
+  <pointId> 5011</pointId>
+  <easting>279886.502</easting>
+  <northing>4753135.418</northing>
+  <ortoHeight>1143.789</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>-2.361</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.640</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:06:59</time>
+  <codemdt>30</codemdt>
+ </point>
+ <point>
+  <pointId> 5012</pointId>
+  <easting>279886.910</easting>
+  <northing>4753135.803</northing>
+  <ortoHeight>1144.059</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>-1.800</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.910</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:07:02</time>
+  <codemdt>30</codemdt>
+ </point>
+ <point>
+  <pointId> 5013</pointId>
+  <easting>279887.323</easting>
+  <northing>4753136.194</northing>
+  <ortoHeight>1144.215</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>-1.231</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.067</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:07:05</time>
+  <codemdt>30</codemdt>
+ </point>
+ <point>
+  <pointId> 5014</pointId>
+  <easting>279887.746</easting>
+  <northing>4753136.594</northing>
+  <ortoHeight>1144.321</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>-0.649</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.172</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:07:08</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5015</pointId>
+  <easting>279888.162</easting>
+  <northing>4753136.988</northing>
+  <ortoHeight>1144.342</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>-0.076</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.193</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:07:11</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5016</pointId>
+  <easting>279888.592</easting>
+  <northing>4753137.394</northing>
+  <ortoHeight>1144.342</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>0.515</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.193</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:07:14</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5017</pointId>
+  <easting>279891.206</easting>
+  <northing>4753139.865</northing>
+  <ortoHeight>1141.974</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>4.112</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.826</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:07:19</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5018</pointId>
+  <easting>279891.385</easting>
+  <northing>4753140.034</northing>
+  <ortoHeight>1141.529</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>4.358</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.381</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:07:22</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5019</pointId>
+  <easting>279891.534</easting>
+  <northing>4753140.175</northing>
+  <ortoHeight>1141.066</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>4.564</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.918</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:07:25</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5020</pointId>
+  <easting>279891.604</easting>
+  <northing>4753140.241</northing>
+  <ortoHeight>1140.576</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>4.660</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.427</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:07:28</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5021</pointId>
+  <easting>279891.677</easting>
+  <northing>4753140.310</northing>
+  <ortoHeight>1140.084</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>4.760</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.936</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:07:31</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5022</pointId>
+  <easting>279891.688</easting>
+  <northing>4753140.321</northing>
+  <ortoHeight>1139.585</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>4.776</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.436</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:07:34</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5023</pointId>
+  <easting>279891.704</easting>
+  <northing>4753140.336</northing>
+  <ortoHeight>1139.429</ortoHeight>
+  <definedChainage>   4.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>4.798</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.281</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:07:37</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5024</pointId>
+  <easting>279885.172</easting>
+  <northing>4753133.462</northing>
+  <ortoHeight>1138.325</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.313</currentChainage>
+  <offsetFromCenterLine>-4.671</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.109</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:07:44</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5025</pointId>
+  <easting>279885.105</easting>
+  <northing>4753133.416</northing>
+  <ortoHeight>1138.821</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.325</currentChainage>
+  <offsetFromCenterLine>-4.752</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.607</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:07:48</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5026</pointId>
+  <easting>279885.113</easting>
+  <northing>4753133.440</northing>
+  <ortoHeight>1139.310</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.337</currentChainage>
+  <offsetFromCenterLine>-4.729</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.098</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:07:52</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5027</pointId>
+  <easting>279885.087</easting>
+  <northing>4753133.393</northing>
+  <ortoHeight>1139.826</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.321</currentChainage>
+  <offsetFromCenterLine>-4.780</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.611</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:07:56</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5028</pointId>
+  <easting>279885.108</easting>
+  <northing>4753133.419</northing>
+  <ortoHeight>1140.376</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.325</currentChainage>
+  <offsetFromCenterLine>-4.747</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.162</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:08:00</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5029</pointId>
+  <easting>279885.170</easting>
+  <northing>4753133.488</northing>
+  <ortoHeight>1140.954</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.333</currentChainage>
+  <offsetFromCenterLine>-4.655</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.740</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:08:03</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5030</pointId>
+  <easting>279885.320</easting>
+  <northing>4753133.623</northing>
+  <ortoHeight>1141.490</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.328</currentChainage>
+  <offsetFromCenterLine>-4.453</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.276</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:08:07</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5031</pointId>
+  <easting>279885.534</easting>
+  <northing>4753133.810</northing>
+  <ortoHeight>1142.011</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.316</currentChainage>
+  <offsetFromCenterLine>-4.169</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.795</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:08:11</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5032</pointId>
+  <easting>279885.793</easting>
+  <northing>4753134.057</northing>
+  <ortoHeight>1142.536</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.318</currentChainage>
+  <offsetFromCenterLine>-3.811</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.321</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:08:14</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5033</pointId>
+  <easting>279886.106</easting>
+  <northing>4753134.348</northing>
+  <ortoHeight>1143.015</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.315</currentChainage>
+  <offsetFromCenterLine>-3.384</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.799</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:08:18</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5034</pointId>
+  <easting>279886.457</easting>
+  <northing>4753134.689</northing>
+  <ortoHeight>1143.451</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.321</currentChainage>
+  <offsetFromCenterLine>-2.894</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.236</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:08:22</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5035</pointId>
+  <easting>279886.844</easting>
+  <northing>4753135.055</northing>
+  <ortoHeight>1143.843</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.322</currentChainage>
+  <offsetFromCenterLine>-2.362</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.629</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:08:27</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5036</pointId>
+  <easting>279887.251</easting>
+  <northing>4753135.440</northing>
+  <ortoHeight>1144.117</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.321</currentChainage>
+  <offsetFromCenterLine>-1.801</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.902</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:08:31</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5037</pointId>
+  <easting>279887.666</easting>
+  <northing>4753135.830</northing>
+  <ortoHeight>1144.281</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.320</currentChainage>
+  <offsetFromCenterLine>-1.232</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.066</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:08:34</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5038</pointId>
+  <easting>279888.104</easting>
+  <northing>4753136.239</northing>
+  <ortoHeight>1144.427</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.316</currentChainage>
+  <offsetFromCenterLine>-0.633</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.211</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:08:38</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5039</pointId>
+  <easting>279888.512</easting>
+  <northing>4753136.628</northing>
+  <ortoHeight>1144.422</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.319</currentChainage>
+  <offsetFromCenterLine>-0.069</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.206</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:08:41</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5040</pointId>
+  <easting>279888.934</easting>
+  <northing>4753137.030</northing>
+  <ortoHeight>1144.406</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.321</currentChainage>
+  <offsetFromCenterLine>0.514</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.191</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:08:45</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5041</pointId>
+  <easting>279891.576</easting>
+  <northing>4753139.523</northing>
+  <ortoHeight>1142.055</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.318</currentChainage>
+  <offsetFromCenterLine>4.146</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.839</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:08:49</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5042</pointId>
+  <easting>279891.740</easting>
+  <northing>4753139.680</northing>
+  <ortoHeight>1141.601</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.319</currentChainage>
+  <offsetFromCenterLine>4.373</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.386</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:08:52</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5043</pointId>
+  <easting>279891.890</easting>
+  <northing>4753139.822</northing>
+  <ortoHeight>1141.137</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.319</currentChainage>
+  <offsetFromCenterLine>4.579</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.921</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:08:55</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5044</pointId>
+  <easting>279891.961</easting>
+  <northing>4753139.889</northing>
+  <ortoHeight>1140.646</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.319</currentChainage>
+  <offsetFromCenterLine>4.678</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.431</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:08:59</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5045</pointId>
+  <easting>279892.045</easting>
+  <northing>4753139.967</northing>
+  <ortoHeight>1140.155</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.318</currentChainage>
+  <offsetFromCenterLine>4.792</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.939</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:09:02</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5046</pointId>
+  <easting>279892.035</easting>
+  <northing>4753139.960</northing>
+  <ortoHeight>1139.651</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.320</currentChainage>
+  <offsetFromCenterLine>4.780</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.436</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:09:06</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5047</pointId>
+  <easting>279892.008</easting>
+  <northing>4753139.940</northing>
+  <ortoHeight>1139.494</ortoHeight>
+  <definedChainage>   4.320</definedChainage>
+  <currentChainage>   4.324</currentChainage>
+  <offsetFromCenterLine>4.747</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.279</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:09:09</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5048</pointId>
+  <easting>279885.518</easting>
+  <northing>4753133.086</northing>
+  <ortoHeight>1138.389</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.801</currentChainage>
+  <offsetFromCenterLine>-4.678</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.105</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:09:16</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5049</pointId>
+  <easting>279885.463</easting>
+  <northing>4753133.105</northing>
+  <ortoHeight>1138.894</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.853</currentChainage>
+  <offsetFromCenterLine>-4.705</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.617</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:09:20</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5050</pointId>
+  <easting>279885.435</easting>
+  <northing>4753133.065</northing>
+  <ortoHeight>1139.377</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.843</currentChainage>
+  <offsetFromCenterLine>-4.753</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.099</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:09:23</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5051</pointId>
+  <easting>279885.422</easting>
+  <northing>4753133.008</northing>
+  <ortoHeight>1139.899</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.811</currentChainage>
+  <offsetFromCenterLine>-4.801</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.617</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:09:27</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5052</pointId>
+  <easting>279885.462</easting>
+  <northing>4753133.096</northing>
+  <ortoHeight>1140.420</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.847</currentChainage>
+  <offsetFromCenterLine>-4.712</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.142</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:09:30</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5053</pointId>
+  <easting>279885.531</easting>
+  <northing>4753133.210</northing>
+  <ortoHeight>1140.949</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.883</currentChainage>
+  <offsetFromCenterLine>-4.583</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.676</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:09:34</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5054</pointId>
+  <easting>279885.673</easting>
+  <northing>4753133.317</northing>
+  <ortoHeight>1141.491</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.863</currentChainage>
+  <offsetFromCenterLine>-4.407</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.215</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:09:38</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5055</pointId>
+  <easting>279885.888</easting>
+  <northing>4753133.479</northing>
+  <ortoHeight>1142.018</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.833</currentChainage>
+  <offsetFromCenterLine>-4.140</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.738</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:09:42</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5056</pointId>
+  <easting>279886.140</easting>
+  <northing>4753133.715</northing>
+  <ortoHeight>1142.549</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.831</currentChainage>
+  <offsetFromCenterLine>-3.794</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.269</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:09:45</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5057</pointId>
+  <easting>279886.448</easting>
+  <northing>4753134.008</northing>
+  <ortoHeight>1142.990</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.833</currentChainage>
+  <offsetFromCenterLine>-3.369</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.710</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:09:49</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5058</pointId>
+  <easting>279886.795</easting>
+  <northing>4753134.333</northing>
+  <ortoHeight>1143.482</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.830</currentChainage>
+  <offsetFromCenterLine>-2.893</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.202</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:09:53</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5059</pointId>
+  <easting>279887.179</easting>
+  <northing>4753134.696</northing>
+  <ortoHeight>1143.873</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.831</currentChainage>
+  <offsetFromCenterLine>-2.365</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.593</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:09:57</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5060</pointId>
+  <easting>279887.599</easting>
+  <northing>4753135.077</northing>
+  <ortoHeight>1144.202</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.818</currentChainage>
+  <offsetFromCenterLine>-1.798</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.920</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:10:01</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5061</pointId>
+  <easting>279888.041</easting>
+  <northing>4753135.473</northing>
+  <ortoHeight>1144.439</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.803</currentChainage>
+  <offsetFromCenterLine>-1.205</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.155</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:10:05</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5062</pointId>
+  <easting>279888.453</easting>
+  <northing>4753135.874</northing>
+  <ortoHeight>1144.502</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.811</currentChainage>
+  <offsetFromCenterLine>-0.630</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.219</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:10:09</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5063</pointId>
+  <easting>279888.852</easting>
+  <northing>4753136.262</northing>
+  <ortoHeight>1144.479</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.820</currentChainage>
+  <offsetFromCenterLine>-0.074</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.197</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:10:12</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5064</pointId>
+  <easting>279889.277</easting>
+  <northing>4753136.666</northing>
+  <ortoHeight>1144.471</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.821</currentChainage>
+  <offsetFromCenterLine>0.513</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.190</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:10:15</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5065</pointId>
+  <easting>279891.970</easting>
+  <northing>4753139.192</northing>
+  <ortoHeight>1142.147</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.807</currentChainage>
+  <offsetFromCenterLine>4.206</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.864</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:10:20</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5066</pointId>
+  <easting>279892.097</easting>
+  <northing>4753139.325</northing>
+  <ortoHeight>1141.673</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.816</currentChainage>
+  <offsetFromCenterLine>4.389</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.391</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:10:23</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5067</pointId>
+  <easting>279892.290</easting>
+  <northing>4753139.497</northing>
+  <ortoHeight>1141.222</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.809</currentChainage>
+  <offsetFromCenterLine>4.647</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.939</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:10:27</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5068</pointId>
+  <easting>279892.424</easting>
+  <northing>4753139.610</northing>
+  <ortoHeight>1140.742</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.798</currentChainage>
+  <offsetFromCenterLine>4.823</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.458</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:10:30</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5069</pointId>
+  <easting>279892.467</easting>
+  <northing>4753139.658</northing>
+  <ortoHeight>1140.234</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.804</currentChainage>
+  <offsetFromCenterLine>4.886</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.951</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:10:33</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5070</pointId>
+  <easting>279892.462</easting>
+  <northing>4753139.657</northing>
+  <ortoHeight>1139.725</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.806</currentChainage>
+  <offsetFromCenterLine>4.882</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.442</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:10:37</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5071</pointId>
+  <easting>279892.395</easting>
+  <northing>4753139.612</northing>
+  <ortoHeight>1139.562</ortoHeight>
+  <definedChainage>   3.820</definedChainage>
+  <currentChainage>   3.820</currentChainage>
+  <offsetFromCenterLine>4.802</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.281</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:10:40</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5072</pointId>
+  <easting>279885.883</easting>
+  <northing>4753132.819</northing>
+  <ortoHeight>1138.488</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.357</currentChainage>
+  <offsetFromCenterLine>-4.596</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.145</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:10:47</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5073</pointId>
+  <easting>279885.796</easting>
+  <northing>4753132.763</northing>
+  <ortoHeight>1138.959</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.375</currentChainage>
+  <offsetFromCenterLine>-4.698</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.618</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:10:50</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5074</pointId>
+  <easting>279885.775</easting>
+  <northing>4753132.733</northing>
+  <ortoHeight>1139.439</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.369</currentChainage>
+  <offsetFromCenterLine>-4.734</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.098</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:10:54</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5075</pointId>
+  <easting>279885.763</easting>
+  <northing>4753132.609</northing>
+  <ortoHeight>1139.977</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.286</currentChainage>
+  <offsetFromCenterLine>-4.827</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.624</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:10:58</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5076</pointId>
+  <easting>279885.794</easting>
+  <northing>4753132.728</northing>
+  <ortoHeight>1140.492</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.352</currentChainage>
+  <offsetFromCenterLine>-4.723</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.149</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:11:02</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5077</pointId>
+  <easting>279885.927</easting>
+  <northing>4753132.818</northing>
+  <ortoHeight>1141.007</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.326</currentChainage>
+  <offsetFromCenterLine>-4.564</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.659</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:11:09</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5078</pointId>
+  <easting>279886.003</easting>
+  <northing>4753132.977</northing>
+  <ortoHeight>1141.546</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.389</currentChainage>
+  <offsetFromCenterLine>-4.401</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.208</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:11:13</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5079</pointId>
+  <easting>279886.227</easting>
+  <northing>4753133.132</northing>
+  <ortoHeight>1142.067</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.348</currentChainage>
+  <offsetFromCenterLine>-4.132</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.723</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:11:16</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5080</pointId>
+  <easting>279886.477</easting>
+  <northing>4753133.369</northing>
+  <ortoHeight>1142.588</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.349</currentChainage>
+  <offsetFromCenterLine>-3.786</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.244</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:11:20</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5081</pointId>
+  <easting>279886.791</easting>
+  <northing>4753133.639</northing>
+  <ortoHeight>1143.080</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.329</currentChainage>
+  <offsetFromCenterLine>-3.373</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.733</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:11:24</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5082</pointId>
+  <easting>279887.136</easting>
+  <northing>4753133.972</northing>
+  <ortoHeight>1143.552</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.334</currentChainage>
+  <offsetFromCenterLine>-2.893</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.206</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:11:28</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5083</pointId>
+  <easting>279887.519</easting>
+  <northing>4753134.337</northing>
+  <ortoHeight>1143.939</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.336</currentChainage>
+  <offsetFromCenterLine>-2.365</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.593</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:11:32</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5084</pointId>
+  <easting>279887.940</easting>
+  <northing>4753134.714</northing>
+  <ortoHeight>1144.257</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.321</currentChainage>
+  <offsetFromCenterLine>-1.800</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.909</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:11:36</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5085</pointId>
+  <easting>279888.376</easting>
+  <northing>4753135.103</northing>
+  <ortoHeight>1144.472</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.304</currentChainage>
+  <offsetFromCenterLine>-1.215</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.122</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:11:40</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5086</pointId>
+  <easting>279888.795</easting>
+  <northing>4753135.507</northing>
+  <ortoHeight>1144.558</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.310</currentChainage>
+  <offsetFromCenterLine>-0.634</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.209</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:11:43</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5087</pointId>
+  <easting>279889.216</easting>
+  <northing>4753135.903</northing>
+  <ortoHeight>1144.582</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.309</currentChainage>
+  <offsetFromCenterLine>-0.055</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.232</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:11:47</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5088</pointId>
+  <easting>279889.637</easting>
+  <northing>4753136.309</northing>
+  <ortoHeight>1144.564</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.314</currentChainage>
+  <offsetFromCenterLine>0.529</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.215</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:11:50</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5089</pointId>
+  <easting>279892.418</easting>
+  <northing>4753138.884</northing>
+  <ortoHeight>1142.264</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.275</currentChainage>
+  <offsetFromCenterLine>4.320</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.910</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:11:54</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5090</pointId>
+  <easting>279892.541</easting>
+  <northing>4753139.021</northing>
+  <ortoHeight>1141.780</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.290</currentChainage>
+  <offsetFromCenterLine>4.503</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.428</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:11:58</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5091</pointId>
+  <easting>279892.724</easting>
+  <northing>4753139.184</northing>
+  <ortoHeight>1141.318</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.283</currentChainage>
+  <offsetFromCenterLine>4.747</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.965</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:12:02</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5092</pointId>
+  <easting>279892.826</easting>
+  <northing>4753139.271</northing>
+  <ortoHeight>1140.823</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.275</currentChainage>
+  <offsetFromCenterLine>4.882</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.469</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:12:05</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5093</pointId>
+  <easting>279892.877</easting>
+  <northing>4753139.326</northing>
+  <ortoHeight>1140.312</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.281</currentChainage>
+  <offsetFromCenterLine>4.956</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.959</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:12:08</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5094</pointId>
+  <easting>279892.893</easting>
+  <northing>4753139.340</northing>
+  <ortoHeight>1139.800</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.280</currentChainage>
+  <offsetFromCenterLine>4.978</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.447</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:12:12</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5095</pointId>
+  <easting>279892.849</easting>
+  <northing>4753139.318</northing>
+  <ortoHeight>1139.636</ortoHeight>
+  <definedChainage>   3.320</definedChainage>
+  <currentChainage>   3.294</currentChainage>
+  <offsetFromCenterLine>4.930</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.285</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:12:15</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5096</pointId>
+  <easting>279886.218</easting>
+  <northing>4753132.458</northing>
+  <ortoHeight>1138.551</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.865</currentChainage>
+  <offsetFromCenterLine>-4.601</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.143</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:12:21</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5097</pointId>
+  <easting>279886.127</easting>
+  <northing>4753132.415</northing>
+  <ortoHeight>1139.023</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.896</currentChainage>
+  <offsetFromCenterLine>-4.696</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.619</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:12:25</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5098</pointId>
+  <easting>279886.106</easting>
+  <northing>4753132.356</northing>
+  <ortoHeight>1139.507</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.867</currentChainage>
+  <offsetFromCenterLine>-4.752</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.099</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:12:29</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5099</pointId>
+  <easting>279886.116</easting>
+  <northing>4753132.269</northing>
+  <ortoHeight>1140.035</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.797</currentChainage>
+  <offsetFromCenterLine>-4.805</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.618</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:12:32</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5100</pointId>
+  <easting>279886.131</easting>
+  <northing>4753132.400</northing>
+  <ortoHeight>1140.544</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.882</currentChainage>
+  <offsetFromCenterLine>-4.704</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.138</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:12:36</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5101</pointId>
+  <easting>279886.271</easting>
+  <northing>4753132.437</northing>
+  <ortoHeight>1141.086</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.812</currentChainage>
+  <offsetFromCenterLine>-4.577</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.671</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:12:43</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5102</pointId>
+  <easting>279886.410</easting>
+  <northing>4753132.560</northing>
+  <ortoHeight>1141.611</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.807</currentChainage>
+  <offsetFromCenterLine>-4.391</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.195</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:12:49</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5103</pointId>
+  <easting>279886.563</easting>
+  <northing>4753132.784</northing>
+  <ortoHeight>1142.121</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.865</currentChainage>
+  <offsetFromCenterLine>-4.126</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.712</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:12:53</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5104</pointId>
+  <easting>279886.810</easting>
+  <northing>4753133.029</northing>
+  <ortoHeight>1142.628</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.872</currentChainage>
+  <offsetFromCenterLine>-3.778</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.220</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:12:56</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5105</pointId>
+  <easting>279887.145</easting>
+  <northing>4753133.253</northing>
+  <ortoHeight>1143.200</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.805</currentChainage>
+  <offsetFromCenterLine>-3.381</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.784</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:13:00</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5106</pointId>
+  <easting>279887.486</easting>
+  <northing>4753133.601</northing>
+  <ortoHeight>1143.651</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.824</currentChainage>
+  <offsetFromCenterLine>-2.894</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.237</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:13:04</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5107</pointId>
+  <easting>279887.865</easting>
+  <northing>4753133.973</northing>
+  <ortoHeight>1144.022</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.834</currentChainage>
+  <offsetFromCenterLine>-2.363</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.610</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:13:08</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5108</pointId>
+  <easting>279888.285</easting>
+  <northing>4753134.349</northing>
+  <ortoHeight>1144.329</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.819</currentChainage>
+  <offsetFromCenterLine>-1.799</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.914</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:13:12</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5109</pointId>
+  <easting>279888.728</easting>
+  <northing>4753134.735</northing>
+  <ortoHeight>1144.549</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.795</currentChainage>
+  <offsetFromCenterLine>-1.212</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.131</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:13:15</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5110</pointId>
+  <easting>279889.152</easting>
+  <northing>4753135.141</northing>
+  <ortoHeight>1144.647</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.798</currentChainage>
+  <offsetFromCenterLine>-0.625</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.230</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:13:19</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5111</pointId>
+  <easting>279889.597</easting>
+  <northing>4753135.541</northing>
+  <ortoHeight>1144.706</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.784</currentChainage>
+  <offsetFromCenterLine>-0.027</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.287</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:13:23</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5112</pointId>
+  <easting>279890.006</easting>
+  <northing>4753135.949</northing>
+  <ortoHeight>1144.665</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.799</currentChainage>
+  <offsetFromCenterLine>0.550</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.248</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:13:26</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5113</pointId>
+  <easting>279892.789</easting>
+  <northing>4753138.519</northing>
+  <ortoHeight>1142.341</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.755</currentChainage>
+  <offsetFromCenterLine>4.338</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.918</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:13:30</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5114</pointId>
+  <easting>279892.974</easting>
+  <northing>4753138.693</northing>
+  <ortoHeight>1141.881</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.754</currentChainage>
+  <offsetFromCenterLine>4.592</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.458</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:13:34</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5115</pointId>
+  <easting>279893.101</easting>
+  <northing>4753138.825</northing>
+  <ortoHeight>1141.394</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.763</currentChainage>
+  <offsetFromCenterLine>4.775</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.972</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:13:37</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5116</pointId>
+  <easting>279893.206</easting>
+  <northing>4753138.910</northing>
+  <ortoHeight>1140.897</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.753</currentChainage>
+  <offsetFromCenterLine>4.910</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.474</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:13:41</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5117</pointId>
+  <easting>279893.283</easting>
+  <northing>4753138.982</northing>
+  <ortoHeight>1140.390</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.752</currentChainage>
+  <offsetFromCenterLine>5.015</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.967</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:13:44</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5118</pointId>
+  <easting>279893.236</easting>
+  <northing>4753138.962</northing>
+  <ortoHeight>1139.867</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.769</currentChainage>
+  <offsetFromCenterLine>4.967</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.446</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:13:47</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5119</pointId>
+  <easting>279893.265</easting>
+  <northing>4753138.984</northing>
+  <ortoHeight>1139.709</ortoHeight>
+  <definedChainage>   2.820</definedChainage>
+  <currentChainage>   2.766</currentChainage>
+  <offsetFromCenterLine>5.003</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.287</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:13:51</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5120</pointId>
+  <easting>279886.558</easting>
+  <northing>4753132.063</northing>
+  <ortoHeight>1138.609</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.344</currentChainage>
+  <offsetFromCenterLine>-4.625</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.131</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:13:57</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5121</pointId>
+  <easting>279886.458</easting>
+  <northing>4753132.060</northing>
+  <ortoHeight>1139.087</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.410</currentChainage>
+  <offsetFromCenterLine>-4.700</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.618</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:14:00</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5122</pointId>
+  <easting>279886.439</easting>
+  <northing>4753132.031</northing>
+  <ortoHeight>1139.568</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.402</currentChainage>
+  <offsetFromCenterLine>-4.733</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.098</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:14:04</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5123</pointId>
+  <easting>279886.461</easting>
+  <northing>4753131.931</northing>
+  <ortoHeight>1140.094</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.315</currentChainage>
+  <offsetFromCenterLine>-4.786</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.612</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:14:07</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5124</pointId>
+  <easting>279886.462</easting>
+  <northing>4753132.068</northing>
+  <ortoHeight>1140.599</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.413</currentChainage>
+  <offsetFromCenterLine>-4.692</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.131</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:14:11</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5125</pointId>
+  <easting>279886.607</easting>
+  <northing>4753132.073</northing>
+  <ortoHeight>1141.157</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.317</currentChainage>
+  <offsetFromCenterLine>-4.583</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.676</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:14:17</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5126</pointId>
+  <easting>279886.664</easting>
+  <northing>4753132.246</northing>
+  <ortoHeight>1141.705</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.404</currentChainage>
+  <offsetFromCenterLine>-4.422</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.236</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:14:21</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5127</pointId>
+  <easting>279886.911</easting>
+  <northing>4753132.380</northing>
+  <ortoHeight>1142.240</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.332</currentChainage>
+  <offsetFromCenterLine>-4.151</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.761</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:14:24</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5128</pointId>
+  <easting>279887.162</easting>
+  <northing>4753132.627</northing>
+  <ortoHeight>1142.760</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.338</currentChainage>
+  <offsetFromCenterLine>-3.799</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.282</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:14:28</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5129</pointId>
+  <easting>279887.498</easting>
+  <northing>4753132.874</northing>
+  <ortoHeight>1143.290</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.288</currentChainage>
+  <offsetFromCenterLine>-3.385</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.805</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:14:31</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5130</pointId>
+  <easting>279887.827</easting>
+  <northing>4753133.240</northing>
+  <ortoHeight>1143.712</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.327</currentChainage>
+  <offsetFromCenterLine>-2.894</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.232</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:14:35</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5131</pointId>
+  <easting>279888.192</easting>
+  <northing>4753133.623</northing>
+  <ortoHeight>1144.053</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.355</currentChainage>
+  <offsetFromCenterLine>-2.366</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.577</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:14:39</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5132</pointId>
+  <easting>279888.654</easting>
+  <northing>4753133.973</northing>
+  <ortoHeight>1144.451</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.292</currentChainage>
+  <offsetFromCenterLine>-1.789</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.966</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:14:43</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5133</pointId>
+  <easting>279889.100</easting>
+  <northing>4753134.361</northing>
+  <ortoHeight>1144.661</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.267</currentChainage>
+  <offsetFromCenterLine>-1.199</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.173</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:14:46</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5134</pointId>
+  <easting>279889.524</easting>
+  <northing>4753134.770</northing>
+  <ortoHeight>1144.755</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.274</currentChainage>
+  <offsetFromCenterLine>-0.610</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.268</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:14:50</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5135</pointId>
+  <easting>279889.968</easting>
+  <northing>4753135.171</northing>
+  <ortoHeight>1144.806</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.260</currentChainage>
+  <offsetFromCenterLine>-0.011</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.317</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:14:53</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5136</pointId>
+  <easting>279890.415</easting>
+  <northing>4753135.588</northing>
+  <ortoHeight>1144.816</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.256</currentChainage>
+  <offsetFromCenterLine>0.599</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.327</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:14:57</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5137</pointId>
+  <easting>279893.173</easting>
+  <northing>4753138.156</northing>
+  <ortoHeight>1142.423</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.227</currentChainage>
+  <offsetFromCenterLine>4.367</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.930</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:15:01</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5138</pointId>
+  <easting>279893.376</easting>
+  <northing>4753138.339</northing>
+  <ortoHeight>1141.968</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.221</currentChainage>
+  <offsetFromCenterLine>4.641</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.474</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:15:05</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5139</pointId>
+  <easting>279893.479</easting>
+  <northing>4753138.462</northing>
+  <ortoHeight>1141.470</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.239</currentChainage>
+  <offsetFromCenterLine>4.800</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.978</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:15:08</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5140</pointId>
+  <easting>279893.568</easting>
+  <northing>4753138.538</northing>
+  <ortoHeight>1140.968</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.233</currentChainage>
+  <offsetFromCenterLine>4.918</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.476</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:15:11</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5141</pointId>
+  <easting>279893.598</easting>
+  <northing>4753138.588</northing>
+  <ortoHeight>1140.451</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.249</currentChainage>
+  <offsetFromCenterLine>4.973</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.961</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:15:15</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5142</pointId>
+  <easting>279893.643</easting>
+  <northing>4753138.615</northing>
+  <ortoHeight>1139.941</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.238</currentChainage>
+  <offsetFromCenterLine>5.024</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.449</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:15:18</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5143</pointId>
+  <easting>279893.621</easting>
+  <northing>4753138.613</northing>
+  <ortoHeight>1139.778</ortoHeight>
+  <definedChainage>   2.320</definedChainage>
+  <currentChainage>   2.251</currentChainage>
+  <offsetFromCenterLine>5.007</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.288</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:15:22</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5144</pointId>
+  <easting>279884.084</easting>
+  <northing>4753134.557</northing>
+  <ortoHeight>1138.102</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.855</currentChainage>
+  <offsetFromCenterLine>-4.709</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.091</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:15:30</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5145</pointId>
+  <easting>279884.068</easting>
+  <northing>4753134.490</northing>
+  <ortoHeight>1138.620</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.818</currentChainage>
+  <offsetFromCenterLine>-4.767</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.604</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:15:34</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5146</pointId>
+  <easting>279884.073</easting>
+  <northing>4753134.478</northing>
+  <ortoHeight>1139.117</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.806</currentChainage>
+  <offsetFromCenterLine>-4.772</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.099</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:15:37</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5147</pointId>
+  <easting>279884.058</easting>
+  <northing>4753134.482</northing>
+  <ortoHeight>1139.626</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.819</currentChainage>
+  <offsetFromCenterLine>-4.780</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.611</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:15:41</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5148</pointId>
+  <easting>279884.092</easting>
+  <northing>4753134.500</northing>
+  <ortoHeight>1140.177</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.809</currentChainage>
+  <offsetFromCenterLine>-4.743</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.160</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:15:45</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5149</pointId>
+  <easting>279884.188</easting>
+  <northing>4753134.556</northing>
+  <ortoHeight>1140.743</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.784</currentChainage>
+  <offsetFromCenterLine>-4.635</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.722</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:15:49</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5150</pointId>
+  <easting>279884.340</easting>
+  <northing>4753134.704</northing>
+  <ortoHeight>1141.256</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.786</currentChainage>
+  <offsetFromCenterLine>-4.422</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.235</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:15:52</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5151</pointId>
+  <easting>279884.520</easting>
+  <northing>4753134.912</northing>
+  <ortoHeight>1141.773</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.814</currentChainage>
+  <offsetFromCenterLine>-4.149</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.757</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:15:56</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5152</pointId>
+  <easting>279884.787</easting>
+  <northing>4753135.152</northing>
+  <ortoHeight>1142.272</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.805</currentChainage>
+  <offsetFromCenterLine>-3.790</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.255</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:15:59</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5153</pointId>
+  <easting>279885.111</easting>
+  <northing>4753135.438</northing>
+  <ortoHeight>1142.663</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.790</currentChainage>
+  <offsetFromCenterLine>-3.358</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.644</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:16:03</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5154</pointId>
+  <easting>279885.435</easting>
+  <northing>4753135.772</northing>
+  <ortoHeight>1143.219</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.810</currentChainage>
+  <offsetFromCenterLine>-2.893</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.202</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:16:07</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5155</pointId>
+  <easting>279885.829</easting>
+  <northing>4753136.111</northing>
+  <ortoHeight>1143.505</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.786</currentChainage>
+  <offsetFromCenterLine>-2.374</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.484</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:16:11</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5156</pointId>
+  <easting>279886.223</easting>
+  <northing>4753136.509</northing>
+  <ortoHeight>1143.852</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.805</currentChainage>
+  <offsetFromCenterLine>-1.815</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.834</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:16:15</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5157</pointId>
+  <easting>279886.630</easting>
+  <northing>4753136.897</northing>
+  <ortoHeight>1144.016</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.807</currentChainage>
+  <offsetFromCenterLine>-1.252</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.999</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:16:19</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5158</pointId>
+  <easting>279887.045</easting>
+  <northing>4753137.284</northing>
+  <ortoHeight>1144.102</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.803</currentChainage>
+  <offsetFromCenterLine>-0.685</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.084</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:16:23</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5159</pointId>
+  <easting>279887.458</easting>
+  <northing>4753137.678</northing>
+  <ortoHeight>1144.138</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.806</currentChainage>
+  <offsetFromCenterLine>-0.114</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.120</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:16:26</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5160</pointId>
+  <easting>279887.902</easting>
+  <northing>4753138.115</northing>
+  <ortoHeight>1144.200</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.819</currentChainage>
+  <offsetFromCenterLine>0.509</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.184</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:16:29</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5161</pointId>
+  <easting>279890.501</easting>
+  <northing>4753140.569</northing>
+  <ortoHeight>1141.830</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.816</currentChainage>
+  <offsetFromCenterLine>4.083</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.814</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:16:34</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5162</pointId>
+  <easting>279890.666</easting>
+  <northing>4753140.720</northing>
+  <ortoHeight>1141.380</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.813</currentChainage>
+  <offsetFromCenterLine>4.307</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.364</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:16:38</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5163</pointId>
+  <easting>279890.846</easting>
+  <northing>4753140.900</northing>
+  <ortoHeight>1140.933</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.820</currentChainage>
+  <offsetFromCenterLine>4.562</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.917</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:16:41</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5164</pointId>
+  <easting>279890.943</easting>
+  <northing>4753141.000</northing>
+  <ortoHeight>1140.450</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.826</currentChainage>
+  <offsetFromCenterLine>4.701</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.435</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:16:45</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5165</pointId>
+  <easting>279890.999</easting>
+  <northing>4753141.048</northing>
+  <ortoHeight>1139.953</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.822</currentChainage>
+  <offsetFromCenterLine>4.775</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.937</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:16:48</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5166</pointId>
+  <easting>279891.016</easting>
+  <northing>4753141.066</northing>
+  <ortoHeight>1139.453</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.824</currentChainage>
+  <offsetFromCenterLine>4.800</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.437</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:16:51</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5167</pointId>
+  <easting>279891.005</easting>
+  <northing>4753141.048</northing>
+  <ortoHeight>1139.296</ortoHeight>
+  <definedChainage>   5.820</definedChainage>
+  <currentChainage>   5.818</currentChainage>
+  <offsetFromCenterLine>4.779</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.280</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:16:55</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5168</pointId>
+  <easting>279883.396</easting>
+  <northing>4753135.217</northing>
+  <ortoHeight>1137.953</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.808</currentChainage>
+  <offsetFromCenterLine>-4.756</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.068</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:17:04</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5169</pointId>
+  <easting>279883.339</easting>
+  <northing>4753135.138</northing>
+  <ortoHeight>1138.473</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.790</currentChainage>
+  <offsetFromCenterLine>-4.851</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.586</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:17:10</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5170</pointId>
+  <easting>279883.336</easting>
+  <northing>4753135.112</northing>
+  <ortoHeight>1138.992</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.773</currentChainage>
+  <offsetFromCenterLine>-4.872</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.103</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:17:16</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5171</pointId>
+  <easting>279883.304</easting>
+  <northing>4753135.121</northing>
+  <ortoHeight>1139.527</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.801</currentChainage>
+  <offsetFromCenterLine>-4.888</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.642</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:17:23</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5172</pointId>
+  <easting>279883.247</easting>
+  <northing>4753135.222</northing>
+  <ortoHeight>1140.097</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.914</currentChainage>
+  <offsetFromCenterLine>-4.861</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.227</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:17:27</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5173</pointId>
+  <easting>279883.449</easting>
+  <northing>4753135.260</northing>
+  <ortoHeight>1140.656</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.803</currentChainage>
+  <offsetFromCenterLine>-4.688</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.770</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:17:30</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5174</pointId>
+  <easting>279883.679</easting>
+  <northing>4753135.406</northing>
+  <ortoHeight>1141.126</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.751</currentChainage>
+  <offsetFromCenterLine>-4.421</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.234</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:17:34</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5175</pointId>
+  <easting>279883.809</easting>
+  <northing>4753135.640</northing>
+  <ortoHeight>1141.670</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.831</currentChainage>
+  <offsetFromCenterLine>-4.166</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.789</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:17:38</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5176</pointId>
+  <easting>279884.110</easting>
+  <northing>4753135.868</northing>
+  <ortoHeight>1142.144</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.790</currentChainage>
+  <offsetFromCenterLine>-3.790</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.257</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:17:41</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5177</pointId>
+  <easting>279884.439</easting>
+  <northing>4753136.146</northing>
+  <ortoHeight>1142.546</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.766</currentChainage>
+  <offsetFromCenterLine>-3.360</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.656</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:17:45</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5178</pointId>
+  <easting>279884.767</easting>
+  <northing>4753136.480</northing>
+  <ortoHeight>1143.055</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.784</currentChainage>
+  <offsetFromCenterLine>-2.892</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.167</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:17:49</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5179</pointId>
+  <easting>279885.161</easting>
+  <northing>4753136.820</northing>
+  <ortoHeight>1143.393</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.760</currentChainage>
+  <offsetFromCenterLine>-2.372</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.502</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:17:52</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5180</pointId>
+  <easting>279885.547</easting>
+  <northing>4753137.222</northing>
+  <ortoHeight>1143.716</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.787</currentChainage>
+  <offsetFromCenterLine>-1.816</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.829</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:17:56</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5181</pointId>
+  <easting>279885.951</easting>
+  <northing>4753137.628</northing>
+  <ortoHeight>1143.914</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.805</currentChainage>
+  <offsetFromCenterLine>-1.243</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.029</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:18:00</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5182</pointId>
+  <easting>279886.370</easting>
+  <northing>4753138.003</northing>
+  <ortoHeight>1143.980</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.790</currentChainage>
+  <offsetFromCenterLine>-0.681</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.093</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:18:03</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5183</pointId>
+  <easting>279886.780</easting>
+  <northing>4753138.393</northing>
+  <ortoHeight>1144.004</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.791</currentChainage>
+  <offsetFromCenterLine>-0.115</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.118</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:18:07</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5184</pointId>
+  <easting>279887.200</easting>
+  <northing>4753138.780</northing>
+  <ortoHeight>1143.987</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.784</currentChainage>
+  <offsetFromCenterLine>0.456</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.099</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:18:10</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5185</pointId>
+  <easting>279889.775</easting>
+  <northing>4753141.220</northing>
+  <ortoHeight>1141.668</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.789</currentChainage>
+  <offsetFromCenterLine>4.003</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.781</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:18:15</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5186</pointId>
+  <easting>279890.003</easting>
+  <northing>4753141.474</northing>
+  <ortoHeight>1141.259</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.816</currentChainage>
+  <offsetFromCenterLine>4.343</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.375</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:18:18</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5187</pointId>
+  <easting>279890.165</easting>
+  <northing>4753141.636</northing>
+  <ortoHeight>1140.802</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.823</currentChainage>
+  <offsetFromCenterLine>4.573</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.920</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:18:21</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5188</pointId>
+  <easting>279890.259</easting>
+  <northing>4753141.741</northing>
+  <ortoHeight>1140.318</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.835</currentChainage>
+  <offsetFromCenterLine>4.713</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.437</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:18:25</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5189</pointId>
+  <easting>279890.324</easting>
+  <northing>4753141.797</northing>
+  <ortoHeight>1139.822</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.831</currentChainage>
+  <offsetFromCenterLine>4.799</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.940</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:18:28</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5190</pointId>
+  <easting>279890.319</easting>
+  <northing>4753141.781</northing>
+  <ortoHeight>1139.319</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.823</currentChainage>
+  <offsetFromCenterLine>4.784</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.436</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:18:32</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5191</pointId>
+  <easting>279890.297</easting>
+  <northing>4753141.735</northing>
+  <ortoHeight>1139.164</ortoHeight>
+  <definedChainage>   6.820</definedChainage>
+  <currentChainage>   6.804</currentChainage>
+  <offsetFromCenterLine>4.737</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.279</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:18:35</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5192</pointId>
+  <easting>279882.581</easting>
+  <northing>4753135.926</northing>
+  <ortoHeight>1137.760</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.883</currentChainage>
+  <offsetFromCenterLine>-4.861</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.018</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:18:44</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5193</pointId>
+  <easting>279882.583</easting>
+  <northing>4753135.777</northing>
+  <ortoHeight>1138.319</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.773</currentChainage>
+  <offsetFromCenterLine>-4.962</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.563</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:18:50</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5194</pointId>
+  <easting>279882.516</easting>
+  <northing>4753135.744</northing>
+  <ortoHeight>1138.862</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.795</currentChainage>
+  <offsetFromCenterLine>-5.034</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.108</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:18:57</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5195</pointId>
+  <easting>279882.545</easting>
+  <northing>4753135.725</northing>
+  <ortoHeight>1139.439</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.761</currentChainage>
+  <offsetFromCenterLine>-5.026</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.681</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:19:03</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5196</pointId>
+  <easting>279882.569</easting>
+  <northing>4753135.814</northing>
+  <ortoHeight>1140.027</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.810</currentChainage>
+  <offsetFromCenterLine>-4.947</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.276</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:19:10</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5197</pointId>
+  <easting>279882.628</easting>
+  <northing>4753136.013</northing>
+  <ortoHeight>1140.579</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.914</currentChainage>
+  <offsetFromCenterLine>-4.767</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.841</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:19:13</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5198</pointId>
+  <easting>279882.823</easting>
+  <northing>4753136.165</northing>
+  <ortoHeight>1141.107</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.890</currentChainage>
+  <offsetFromCenterLine>-4.521</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.366</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:19:17</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5199</pointId>
+  <easting>279883.139</easting>
+  <northing>4753136.305</northing>
+  <ortoHeight>1141.603</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.775</currentChainage>
+  <offsetFromCenterLine>-4.196</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.847</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:19:23</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5200</pointId>
+  <easting>279883.315</easting>
+  <northing>4753136.644</northing>
+  <ortoHeight>1142.133</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.900</currentChainage>
+  <offsetFromCenterLine>-3.835</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.393</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:19:27</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5201</pointId>
+  <easting>279883.673</easting>
+  <northing>4753136.921</northing>
+  <ortoHeight>1142.546</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.856</currentChainage>
+  <offsetFromCenterLine>-3.384</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.801</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:19:31</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5202</pointId>
+  <easting>279884.037</easting>
+  <northing>4753137.247</northing>
+  <ortoHeight>1143.023</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.843</currentChainage>
+  <offsetFromCenterLine>-2.896</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.276</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:19:34</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5203</pointId>
+  <easting>279884.453</easting>
+  <northing>4753137.582</northing>
+  <ortoHeight>1143.363</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.801</currentChainage>
+  <offsetFromCenterLine>-2.364</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.610</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:19:38</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5204</pointId>
+  <easting>279884.843</easting>
+  <northing>4753137.995</northing>
+  <ortoHeight>1143.680</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.833</currentChainage>
+  <offsetFromCenterLine>-1.796</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.931</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:19:42</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5205</pointId>
+  <easting>279885.256</easting>
+  <northing>4753138.392</northing>
+  <ortoHeight>1143.843</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.837</currentChainage>
+  <offsetFromCenterLine>-1.223</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.095</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:19:45</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5206</pointId>
+  <easting>279885.677</easting>
+  <northing>4753138.827</northing>
+  <ortoHeight>1143.992</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.864</currentChainage>
+  <offsetFromCenterLine>-0.618</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.248</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:19:49</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5207</pointId>
+  <easting>279886.102</easting>
+  <northing>4753139.153</northing>
+  <ortoHeight>1143.925</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.809</currentChainage>
+  <offsetFromCenterLine>-0.086</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.174</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:19:53</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5208</pointId>
+  <easting>279886.534</easting>
+  <northing>4753139.609</northing>
+  <ortoHeight>1143.982</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.844</currentChainage>
+  <offsetFromCenterLine>0.542</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.235</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:19:57</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5209</pointId>
+  <easting>279889.135</easting>
+  <northing>4753142.021</northing>
+  <ortoHeight>1141.567</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.810</currentChainage>
+  <offsetFromCenterLine>4.089</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.816</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:20:01</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5210</pointId>
+  <easting>279889.315</easting>
+  <northing>4753142.195</northing>
+  <ortoHeight>1141.125</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.812</currentChainage>
+  <offsetFromCenterLine>4.339</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.374</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:20:04</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5211</pointId>
+  <easting>279889.467</easting>
+  <northing>4753142.342</northing>
+  <ortoHeight>1140.665</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.815</currentChainage>
+  <offsetFromCenterLine>4.550</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.914</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:20:08</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5212</pointId>
+  <easting>279889.565</easting>
+  <northing>4753142.470</northing>
+  <ortoHeight>1140.184</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.840</currentChainage>
+  <offsetFromCenterLine>4.709</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.436</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:20:11</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5213</pointId>
+  <easting>279889.638</easting>
+  <northing>4753142.537</northing>
+  <ortoHeight>1139.689</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.840</currentChainage>
+  <offsetFromCenterLine>4.808</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.941</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:20:14</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5214</pointId>
+  <easting>279889.615</easting>
+  <northing>4753142.475</northing>
+  <ortoHeight>1139.186</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.810</currentChainage>
+  <offsetFromCenterLine>4.749</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.434</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:20:18</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5215</pointId>
+  <easting>279889.640</easting>
+  <northing>4753142.508</northing>
+  <ortoHeight>1139.031</ortoHeight>
+  <definedChainage>   7.820</definedChainage>
+  <currentChainage>   7.817</currentChainage>
+  <offsetFromCenterLine>4.790</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.280</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:20:22</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5216</pointId>
+  <easting>279881.912</easting>
+  <northing>4753136.661</northing>
+  <ortoHeight>1137.637</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.876</currentChainage>
+  <offsetFromCenterLine>-4.842</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.027</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:20:31</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5217</pointId>
+  <easting>279881.802</easting>
+  <northing>4753136.537</northing>
+  <ortoHeight>1138.165</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.862</currentChainage>
+  <offsetFromCenterLine>-5.007</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.553</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:20:37</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5218</pointId>
+  <easting>279881.808</easting>
+  <northing>4753136.472</northing>
+  <ortoHeight>1138.727</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.811</currentChainage>
+  <offsetFromCenterLine>-5.048</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.109</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:20:44</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5219</pointId>
+  <easting>279881.803</easting>
+  <northing>4753136.494</northing>
+  <ortoHeight>1139.300</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.830</currentChainage>
+  <offsetFromCenterLine>-5.037</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.684</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:20:50</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5220</pointId>
+  <easting>279881.901</easting>
+  <northing>4753136.551</northing>
+  <ortoHeight>1139.883</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.805</currentChainage>
+  <offsetFromCenterLine>-4.926</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.264</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:20:56</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5221</pointId>
+  <easting>279882.011</easting>
+  <northing>4753136.676</northing>
+  <ortoHeight>1140.452</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.820</currentChainage>
+  <offsetFromCenterLine>-4.761</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.835</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:21:02</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5222</pointId>
+  <easting>279882.173</easting>
+  <northing>4753136.886</northing>
+  <ortoHeight>1140.948</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.861</currentChainage>
+  <offsetFromCenterLine>-4.498</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.336</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:21:06</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5223</pointId>
+  <easting>279882.429</easting>
+  <northing>4753137.008</northing>
+  <ortoHeight>1141.535</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.773</currentChainage>
+  <offsetFromCenterLine>-4.228</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.911</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:21:12</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5224</pointId>
+  <easting>279882.717</easting>
+  <northing>4753137.277</northing>
+  <ortoHeight>1142.018</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.771</currentChainage>
+  <offsetFromCenterLine>-3.835</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.395</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:21:18</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5225</pointId>
+  <easting>279882.995</easting>
+  <northing>4753137.615</northing>
+  <ortoHeight>1142.510</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.826</currentChainage>
+  <offsetFromCenterLine>-3.400</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.894</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:21:24</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5226</pointId>
+  <easting>279883.307</easting>
+  <northing>4753138.017</northing>
+  <ortoHeight>1142.938</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.904</currentChainage>
+  <offsetFromCenterLine>-2.898</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.332</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:21:28</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5227</pointId>
+  <easting>279883.769</easting>
+  <northing>4753138.306</northing>
+  <ortoHeight>1143.234</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.797</currentChainage>
+  <offsetFromCenterLine>-2.363</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.613</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:21:31</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5228</pointId>
+  <easting>279884.164</easting>
+  <northing>4753138.706</northing>
+  <ortoHeight>1143.522</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.815</currentChainage>
+  <offsetFromCenterLine>-1.801</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.904</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:21:35</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5229</pointId>
+  <easting>279884.574</easting>
+  <northing>4753139.102</northing>
+  <ortoHeight>1143.686</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.822</currentChainage>
+  <offsetFromCenterLine>-1.231</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.069</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:21:38</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5230</pointId>
+  <easting>279884.999</easting>
+  <northing>4753139.497</northing>
+  <ortoHeight>1143.786</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.817</currentChainage>
+  <offsetFromCenterLine>-0.651</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.168</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:21:42</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5231</pointId>
+  <easting>279885.413</easting>
+  <northing>4753139.904</northing>
+  <ortoHeight>1143.820</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.829</currentChainage>
+  <offsetFromCenterLine>-0.070</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.204</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:21:45</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5232</pointId>
+  <easting>279885.843</easting>
+  <northing>4753140.314</northing>
+  <ortoHeight>1143.822</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.830</currentChainage>
+  <offsetFromCenterLine>0.524</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.206</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:21:49</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5233</pointId>
+  <easting>279888.462</easting>
+  <northing>4753142.785</northing>
+  <ortoHeight>1141.447</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.827</currentChainage>
+  <offsetFromCenterLine>4.124</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.831</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:21:53</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5234</pointId>
+  <easting>279888.650</easting>
+  <northing>4753142.983</northing>
+  <ortoHeight>1141.008</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.842</currentChainage>
+  <offsetFromCenterLine>4.397</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.393</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:21:56</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5235</pointId>
+  <easting>279888.803</easting>
+  <northing>4753143.135</northing>
+  <ortoHeight>1140.544</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.847</currentChainage>
+  <offsetFromCenterLine>4.613</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.930</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:22:00</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5236</pointId>
+  <easting>279888.907</easting>
+  <northing>4753143.303</northing>
+  <ortoHeight>1140.061</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.898</currentChainage>
+  <offsetFromCenterLine>4.804</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.454</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:22:03</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5237</pointId>
+  <easting>279888.968</easting>
+  <northing>4753143.334</northing>
+  <ortoHeight>1139.558</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.878</currentChainage>
+  <offsetFromCenterLine>4.869</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.949</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:22:07</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5238</pointId>
+  <easting>279888.957</easting>
+  <northing>4753143.277</northing>
+  <ortoHeight>1139.052</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.845</currentChainage>
+  <offsetFromCenterLine>4.822</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.438</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:22:10</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5239</pointId>
+  <easting>279888.952</easting>
+  <northing>4753143.230</northing>
+  <ortoHeight>1138.898</ortoHeight>
+  <definedChainage>   8.820</definedChainage>
+  <currentChainage>   8.814</currentChainage>
+  <offsetFromCenterLine>4.787</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.281</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:22:14</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5240</pointId>
+  <easting>279881.262</easting>
+  <northing>4753137.275</northing>
+  <ortoHeight>1137.494</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.769</currentChainage>
+  <offsetFromCenterLine>-4.893</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.003</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:22:22</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5241</pointId>
+  <easting>279881.139</easting>
+  <northing>4753137.283</northing>
+  <ortoHeight>1138.039</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.859</currentChainage>
+  <offsetFromCenterLine>-4.977</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.559</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:22:28</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5242</pointId>
+  <easting>279881.138</easting>
+  <northing>4753137.205</northing>
+  <ortoHeight>1138.594</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.804</currentChainage>
+  <offsetFromCenterLine>-5.031</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.108</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:22:35</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5243</pointId>
+  <easting>279881.144</easting>
+  <northing>4753137.192</northing>
+  <ortoHeight>1139.172</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.790</currentChainage>
+  <offsetFromCenterLine>-5.036</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.684</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:22:41</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5244</pointId>
+  <easting>279881.207</easting>
+  <northing>4753137.242</northing>
+  <ortoHeight>1139.769</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.783</currentChainage>
+  <offsetFromCenterLine>-4.955</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.280</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:22:48</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5245</pointId>
+  <easting>279881.323</easting>
+  <northing>4753137.366</northing>
+  <ortoHeight>1140.346</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.794</currentChainage>
+  <offsetFromCenterLine>-4.786</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.858</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:22:54</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5246</pointId>
+  <easting>279881.480</easting>
+  <northing>4753137.584</northing>
+  <ortoHeight>1140.849</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.844</currentChainage>
+  <offsetFromCenterLine>-4.522</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.367</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:23:03</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5247</pointId>
+  <easting>279881.741</easting>
+  <northing>4753137.738</northing>
+  <ortoHeight>1141.399</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.777</currentChainage>
+  <offsetFromCenterLine>-4.227</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.909</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:23:09</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5248</pointId>
+  <easting>279882.033</easting>
+  <northing>4753137.968</northing>
+  <ortoHeight>1141.957</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.743</currentChainage>
+  <offsetFromCenterLine>-3.857</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.462</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:23:16</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5249</pointId>
+  <easting>279882.306</easting>
+  <northing>4753138.344</northing>
+  <ortoHeight>1142.377</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.830</currentChainage>
+  <offsetFromCenterLine>-3.400</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.894</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:23:22</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5250</pointId>
+  <easting>279882.660</easting>
+  <northing>4753138.699</northing>
+  <ortoHeight>1142.836</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.844</currentChainage>
+  <offsetFromCenterLine>-2.899</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.354</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:23:29</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5251</pointId>
+  <easting>279883.082</easting>
+  <northing>4753139.048</northing>
+  <ortoHeight>1143.228</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.808</currentChainage>
+  <offsetFromCenterLine>-2.352</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.742</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:23:35</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5252</pointId>
+  <easting>279883.430</easting>
+  <northing>4753139.507</northing>
+  <ortoHeight>1143.464</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.902</currentChainage>
+  <offsetFromCenterLine>-1.784</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.990</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:23:39</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5253</pointId>
+  <easting>279883.884</easting>
+  <northing>4753139.834</northing>
+  <ortoHeight>1143.558</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.828</currentChainage>
+  <offsetFromCenterLine>-1.229</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.074</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:23:42</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5254</pointId>
+  <easting>279884.310</easting>
+  <northing>4753140.231</northing>
+  <ortoHeight>1143.660</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.824</currentChainage>
+  <offsetFromCenterLine>-0.648</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.176</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:23:45</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5255</pointId>
+  <easting>279884.731</easting>
+  <northing>4753140.610</northing>
+  <ortoHeight>1143.668</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.810</currentChainage>
+  <offsetFromCenterLine>-0.081</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.182</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:23:49</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5256</pointId>
+  <easting>279885.159</easting>
+  <northing>4753141.020</northing>
+  <ortoHeight>1143.672</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.814</currentChainage>
+  <offsetFromCenterLine>0.512</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.187</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:23:52</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5257</pointId>
+  <easting>279887.772</easting>
+  <northing>4753143.502</northing>
+  <ortoHeight>1141.311</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.823</currentChainage>
+  <offsetFromCenterLine>4.115</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.827</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:23:56</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5258</pointId>
+  <easting>279887.960</easting>
+  <northing>4753143.717</northing>
+  <ortoHeight>1140.875</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.850</currentChainage>
+  <offsetFromCenterLine>4.400</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.394</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:24:00</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5259</pointId>
+  <easting>279888.114</easting>
+  <northing>4753143.876</northing>
+  <ortoHeight>1140.411</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.859</currentChainage>
+  <offsetFromCenterLine>4.621</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.932</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:24:04</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5260</pointId>
+  <easting>279888.188</easting>
+  <northing>4753143.959</northing>
+  <ortoHeight>1139.918</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.869</currentChainage>
+  <offsetFromCenterLine>4.731</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.441</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:24:07</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5261</pointId>
+  <easting>279888.265</easting>
+  <northing>4753144.044</northing>
+  <ortoHeight>1139.423</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.877</currentChainage>
+  <offsetFromCenterLine>4.846</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.946</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:24:11</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5262</pointId>
+  <easting>279888.270</easting>
+  <northing>4753144.030</northing>
+  <ortoHeight>1138.918</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.863</currentChainage>
+  <offsetFromCenterLine>4.840</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.440</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:24:14</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5263</pointId>
+  <easting>279888.278</easting>
+  <northing>4753144.005</northing>
+  <ortoHeight>1138.763</ortoHeight>
+  <definedChainage>   9.820</definedChainage>
+  <currentChainage>   9.840</currentChainage>
+  <offsetFromCenterLine>4.829</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.282</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:24:17</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5264</pointId>
+  <easting>279880.475</easting>
+  <northing>4753138.069</northing>
+  <ortoHeight>1137.332</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.888</currentChainage>
+  <offsetFromCenterLine>-4.920</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>-0.010</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:24:25</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5265</pointId>
+  <easting>279880.533</easting>
+  <northing>4753137.899</northing>
+  <ortoHeight>1137.920</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.724</currentChainage>
+  <offsetFromCenterLine>-4.994</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.556</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:24:31</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5266</pointId>
+  <easting>279880.499</easting>
+  <northing>4753137.883</northing>
+  <ortoHeight>1138.471</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.735</currentChainage>
+  <offsetFromCenterLine>-5.030</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.108</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:24:37</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5267</pointId>
+  <easting>279880.447</easting>
+  <northing>4753137.988</northing>
+  <ortoHeight>1139.020</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.847</currentChainage>
+  <offsetFromCenterLine>-4.995</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.672</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:24:44</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5268</pointId>
+  <easting>279880.454</easting>
+  <northing>4753138.012</northing>
+  <ortoHeight>1139.636</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.860</currentChainage>
+  <offsetFromCenterLine>-4.974</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.290</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:24:50</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5269</pointId>
+  <easting>279880.631</easting>
+  <northing>4753138.083</northing>
+  <ortoHeight>1140.223</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.790</currentChainage>
+  <offsetFromCenterLine>-4.797</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.868</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:24:56</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5270</pointId>
+  <easting>279880.697</easting>
+  <northing>4753138.299</northing>
+  <ortoHeight>1140.811</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.902</currentChainage>
+  <offsetFromCenterLine>-4.601</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.471</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:25:03</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5271</pointId>
+  <easting>279881.004</easting>
+  <northing>4753138.502</northing>
+  <ortoHeight>1141.278</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.838</currentChainage>
+  <offsetFromCenterLine>-4.238</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.929</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:25:09</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5272</pointId>
+  <easting>279881.308</easting>
+  <northing>4753138.741</northing>
+  <ortoHeight>1141.802</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.803</currentChainage>
+  <offsetFromCenterLine>-3.852</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>4.448</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:25:16</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5273</pointId>
+  <easting>279881.635</easting>
+  <northing>4753139.027</northing>
+  <ortoHeight>1142.356</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.786</currentChainage>
+  <offsetFromCenterLine>-3.418</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.000</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:25:22</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5274</pointId>
+  <easting>279881.964</easting>
+  <northing>4753139.434</northing>
+  <ortoHeight>1142.743</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.856</currentChainage>
+  <offsetFromCenterLine>-2.900</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.397</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:25:28</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5275</pointId>
+  <easting>279882.368</easting>
+  <northing>4753139.805</northing>
+  <ortoHeight>1143.100</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.848</currentChainage>
+  <offsetFromCenterLine>-2.351</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>5.752</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:25:34</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5276</pointId>
+  <easting>279882.797</easting>
+  <northing>4753140.186</northing>
+  <ortoHeight>1143.374</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.831</currentChainage>
+  <offsetFromCenterLine>-1.778</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.024</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:25:40</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5277</pointId>
+  <easting>279883.213</easting>
+  <northing>4753140.592</northing>
+  <ortoHeight>1143.533</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.840</currentChainage>
+  <offsetFromCenterLine>-1.196</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.184</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:25:46</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5278</pointId>
+  <easting>279883.596</easting>
+  <northing>4753141.018</northing>
+  <ortoHeight>1143.572</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.887</currentChainage>
+  <offsetFromCenterLine>-0.626</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.229</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:25:49</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5279</pointId>
+  <easting>279884.021</easting>
+  <northing>4753141.403</northing>
+  <ortoHeight>1143.583</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.874</currentChainage>
+  <offsetFromCenterLine>-0.052</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.239</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:25:53</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5280</pointId>
+  <easting>279884.461</easting>
+  <northing>4753141.792</northing>
+  <ortoHeight>1143.569</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.854</currentChainage>
+  <offsetFromCenterLine>0.534</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>6.223</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:25:57</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5281</pointId>
+  <easting>279887.093</easting>
+  <northing>4753144.319</northing>
+  <ortoHeight>1141.198</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.883</currentChainage>
+  <offsetFromCenterLine>4.183</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.854</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:26:01</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5282</pointId>
+  <easting>279887.359</easting>
+  <northing>4753144.435</northing>
+  <ortoHeight>1140.769</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.784</currentChainage>
+  <offsetFromCenterLine>4.456</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>3.412</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:26:07</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5283</pointId>
+  <easting>279887.423</easting>
+  <northing>4753144.615</northing>
+  <ortoHeight>1140.278</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.871</currentChainage>
+  <offsetFromCenterLine>4.626</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.933</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:26:10</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5284</pointId>
+  <easting>279887.496</easting>
+  <northing>4753144.706</northing>
+  <ortoHeight>1139.785</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.887</currentChainage>
+  <offsetFromCenterLine>4.742</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.442</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:26:14</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5285</pointId>
+  <easting>279887.577</easting>
+  <northing>4753144.828</northing>
+  <ortoHeight>1139.289</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.920</currentChainage>
+  <offsetFromCenterLine>4.885</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.950</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:26:17</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5286</pointId>
+  <easting>279887.580</easting>
+  <northing>4753144.781</northing>
+  <ortoHeight>1138.783</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.884</currentChainage>
+  <offsetFromCenterLine>4.855</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.440</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:26:21</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5287</pointId>
+  <easting>279887.597</easting>
+  <northing>4753144.800</northing>
+  <ortoHeight>1138.626</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.886</currentChainage>
+  <offsetFromCenterLine>4.880</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.283</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:26:24</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5288</pointId>
+  <easting>279888.104</easting>
+  <northing>4753144.255</northing>
+  <ortoHeight>1139.517</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>  10.142</currentChainage>
+  <offsetFromCenterLine>4.873</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>2.076</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:27:38</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5289</pointId>
+  <easting>279884.844</easting>
+  <northing>4753133.851</northing>
+  <ortoHeight>1138.271</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>-4.643</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.123</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:27:50</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5290</pointId>
+  <easting>279884.750</easting>
+  <northing>4753133.762</northing>
+  <ortoHeight>1138.751</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>-4.772</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>0.603</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:27:53</time>
+  <codemdt>30</codemdt>
+</point>
+<point>
+  <pointId> 5291</pointId>
+  <easting>279884.730</easting>
+  <northing>4753133.742</northing>
+  <ortoHeight>1139.249</ortoHeight>
+  <definedChainage>  10.820</definedChainage>
+  <currentChainage>   4.820</currentChainage>
+  <offsetFromCenterLine>-4.800</offsetFromCenterLine>
+  <heightDifferenceFromCenterLine>1.100</heightDifferenceFromCenterLine>
+  <date>2005-01-20</date>
+  <time>13:28:00</time>
+  <codemdt>30</codemdt>
+</point>
+</points>
+</application>

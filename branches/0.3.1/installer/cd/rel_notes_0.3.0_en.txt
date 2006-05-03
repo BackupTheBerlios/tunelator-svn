@@ -1,0 +1,68 @@
+Tunelator 0.3.0 Release Notes
+
+Copyright (c) 2006 Juan Alvarez Ferrando
+
+Distributed under the GNU GPL version 2 license, check the
+licencse terms at http://www.gnu.org/copyleft/gpl.html
+
+
+This is the first public release of Tunelator, we hope it'll get to 
+be usefull to many people and also that our users will help us 
+make it better and more feature rich. Enjoy!
+
+Though we know no obstacle that could avoid making Tunelator run under
+other operating systems apart from Microsoft Windows, we have not made
+tests yet. One future objective is releasing an installer at least
+for Linux.
+
+Tunelator is designed to be easily installed by end users. If you 
+have a JRE 1.5 or later installed you can simply launch the installer
+executable. 
+
+To create an installation CD you'll need the following:
+
+- The installer executable file: tunelator-0.3.0.exe
+- The 'jre' folder resulting from the intallation of a Java JRE 1.5
+- Although not necessary for the installer, we require that you
+  place a copy of the License folder (license.zip file) in the installation 
+  media to better convey the GNU GPL license terms.
+
+Place all that in the same folder or burn it into a CD and you've got it.
+Launch the installer and if the system does not contain a JRE it'll use 
+the one it finds in the 'jre' folder to run.
+
+The installer includes a JRE 1.5.0_06 with Java3D 1.3.2 installed on it,
+that gets copied to the installation folder you choose during the installation.
+You can substitute it by other JRE 1.5 or later and/or another Java3D version
+but at your own risk. Please tell us at the forums if other combinations have
+worked for you, or if you had to do it to solve a problem.
+
+Tunelator uses the Java 3D version 1.3.2. Java 3D is reported to work with 
+Nvidia and ATI cards (Catalyst 5.3 o posterior for Win32), and Matrox 
+(with Z-Buffer turned on). There are some known issues, specially with some 
+ATI cards; we can't test the program with a variety of cards as we'd like, but
+will tryto help you solve the problems you find.
+
+The solutions to these problems usually involve changing some parameter 
+in your graphics card configuration or changing to a newer Java3D version.
+
+Sharing your experiences you can help other users, and help us impove
+Tunelator for you so we encourage you to participate in the proyect
+forums.
+
+Known issues:
+-----------------------------------------------------------------
+
+- When in the preview tab, you can't change the width of the left
+panel containing the job and profile tree. This problem is related
+to Java 3D and Swing integration, so we can't solve it yet.
+
+- When editing directly on the grid, the undo button in not activated.
+There may be other situations where this also happens. The button
+turns to its proper state if you click on the job, or move to another
+job and then back. We will fix this soon.
+
+To share your experiences and sample files, report problems, download
+files, etc. go to the proyect's web site:
+
+http://tunelator.berlios.de
