@@ -28,6 +28,7 @@ import java.awt.GraphicsConfiguration;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
@@ -40,6 +41,7 @@ import javax.media.j3d.Font3D;
 import javax.media.j3d.FontExtrusion;
 import javax.media.j3d.Group;
 import javax.media.j3d.Node;
+import javax.media.j3d.PolygonAttributes;
 import javax.media.j3d.Shape3D;
 import javax.media.j3d.Text3D;
 import javax.media.j3d.Transform3D;
@@ -55,6 +57,9 @@ import ca.odell.glazedlists.event.ListEventListener;
 import com.sun.j3d.utils.behaviors.mouse.MouseRotate;
 import com.sun.j3d.utils.behaviors.mouse.MouseTranslate;
 import com.sun.j3d.utils.behaviors.mouse.MouseZoom;
+import com.sun.j3d.utils.geometry.GeometryInfo;
+import com.sun.j3d.utils.geometry.NormalGenerator;
+import com.sun.j3d.utils.geometry.Triangulator;
 import com.sun.j3d.utils.universe.SimpleUniverse;
 import com.sun.j3d.utils.universe.ViewInfo;
 
@@ -758,6 +763,7 @@ public final class J3DProfileViewer extends JPanel
 	        profilesBg.setCapability(BranchGroup.ALLOW_BOUNDS_READ);
 	        addProfiles(profiles,profilesBg,fp);
 	        addTexts(profiles,profilesBg,fp);
+            triangulate();
 
 	        bounds = (BoundingSphere) profilesBg.getBounds();
 	        
@@ -860,5 +866,45 @@ public final class J3DProfileViewer extends JPanel
         // Update the scale of the text shapes according to the 
         // new size of the scene.
         updateTextScale(null);
+    }
+    /**
+     * Triangulates the profile list and displays de result.
+     *
+     */
+    public void triangulate(){
+        ArrayList list=new ArrayList();
+        Iterator it = profileBGList.iterator();
+        int stripCountArray [] = new int[profileBGList.size()];
+        int profileCount = 0;
+        int pointCount = 0;
+        while(it.hasNext()){
+            ProfileShape3D shape = (ProfileShape3D)((BranchGroup) it.next()).getChild(0);
+            list.addAll(Arrays.asList(shape.getPoints()));
+            stripCountArray[profileCount++] = shape.getPoints().length;
+            pointCount += shape.getPoints().length;
+        }
+        Point3d pointArray[] = new Point3d[pointCount];
+        for (int i=0;i<pointCount;i++){
+            pointArray[i] = (Point3d) list.get(i);
+        }
+        int contourCountArray[] = {stripCountArray.length};
+        GeometryInfo gi = new GeometryInfo(GeometryInfo.POLYGON_ARRAY);
+        gi.setCoordinates(pointArray);
+        gi.setStripCounts(stripCountArray);
+        gi.setContourCounts(contourCountArray);
+        NormalGenerator normalGenerator = new NormalGenerator();
+        normalGenerator.generateNormals(gi);
+        Appearance ap = new Appearance();
+//      render as a wireframe
+        PolygonAttributes polyAttrbutes = new PolygonAttributes();
+        polyAttrbutes.setPolygonMode( PolygonAttributes.POLYGON_LINE );
+        polyAttrbutes.setCullFace( PolygonAttributes.CULL_NONE ) ;
+        ap.setPolygonAttributes( polyAttrbutes );
+//        add both a wireframe and a solid version
+//        of the triangulated surface
+        Shape3D shape1 = new Shape3D( gi.getGeometryArray(), ap );
+        Shape3D shape2 = new Shape3D( gi.getGeometryArray() );
+        profilesBg.addChild(shape1);
+//       profilesBg.addChild(shape2);
     }
 }

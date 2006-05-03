@@ -57,10 +57,26 @@ import es.tunelator.vo.PuntoVO;
  * @author <a href="mailto:jaferrando@users.berlios.de">Juan Alvarez Ferrando</a>
  */
 public class ProfileShape3D extends Shape3D {
+    /**
+     * Array of point coordinates
+     */
     protected Point3d[] points;
+    /**
+     * Number of points in the profile
+     */
     protected int[] stripCounts;
+    /**
+     * Geometry to represent the profile as a connected line
+     */
     protected LineStripArray geometry = null;
+    /**
+     * Geometry that represents the pointcloud
+     */
     protected PointArray pointCloud = null;
+    /**
+     * Appearance properties to apply if no others are
+     * provided.
+     */
     protected static Appearance defaultAppearance = null;
     
     static {
@@ -168,4 +184,24 @@ public class ProfileShape3D extends Shape3D {
             Logger.logError(this.getClass(),e);
         }
     }
+
+    /**
+     * @return Returns the pointCloud.
+     */
+    public PointArray getPointCloud() {
+        return pointCloud;
+    }
+    /**
+     * @return Returns the points.
+     */
+    public Point3d[] getPoints() {
+        return points;
+    }
+    /**
+     * @return Returns the stripCounts.
+     */
+    public int[] getStripCounts() {
+        return stripCounts;
+    }
+    
 }

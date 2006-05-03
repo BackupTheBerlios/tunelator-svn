@@ -2,7 +2,7 @@
 <!-- ====================================================================== 
      1-may-2006                                                        
 
-     Tunelator 0.3.0    
+     Tunelator 0.3.1    
                    
 	 Tunelator surveying software.
 	  
@@ -23,13 +23,13 @@
 	 MA  02110-1301, USA.
      
      ====================================================================== -->
-<project name="Tunelator" default="build.pack" basedir="c:/proyectos/tunelator/">
+<project name="Tunelator" default="build.pack" basedir="c:/proyectos/tunelator/Tunelator 0.3.1">
     <description>
             Tunelator ${project.version}. Juan Alvarez Ferrando
     </description>
 	
 <!-- Project properties -->
-	<property name="project.version" value="0.3.0"/>
+	<property name="project.version" value="0.3.1"/>
 	<property name="project.jarFileName" value="tunelator-${project.version}.jar"/>
 	<property name="project.sourceDir" value="${basedir}/src"/>
 	<property name="project.binDir" value="${basedir}/bin"/>
