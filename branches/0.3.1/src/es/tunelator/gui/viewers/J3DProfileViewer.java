@@ -39,8 +39,11 @@ import javax.media.j3d.BranchGroup;
 import javax.media.j3d.Canvas3D;
 import javax.media.j3d.Font3D;
 import javax.media.j3d.FontExtrusion;
+import javax.media.j3d.GeometryArray;
 import javax.media.j3d.Group;
+import javax.media.j3d.LineStripArray;
 import javax.media.j3d.Node;
+import javax.media.j3d.PointArray;
 import javax.media.j3d.PolygonAttributes;
 import javax.media.j3d.Shape3D;
 import javax.media.j3d.Text3D;
@@ -59,7 +62,6 @@ import com.sun.j3d.utils.behaviors.mouse.MouseTranslate;
 import com.sun.j3d.utils.behaviors.mouse.MouseZoom;
 import com.sun.j3d.utils.geometry.GeometryInfo;
 import com.sun.j3d.utils.geometry.NormalGenerator;
-import com.sun.j3d.utils.geometry.Triangulator;
 import com.sun.j3d.utils.universe.SimpleUniverse;
 import com.sun.j3d.utils.universe.ViewInfo;
 
@@ -69,6 +71,8 @@ import es.tunelator.plugins.transformers.TransformException;
 import es.tunelator.plugins.transformers.vo.Point3D;
 import es.tunelator.vo.ProfileVO;
 import es.tunelator.vo.PuntoVO;
+
+import quickhull3d.*;
 
 /**
  * &COPY; 2005 Juan Alvarez Ferrando<br/><br/>
@@ -763,8 +767,8 @@ public final class J3DProfileViewer extends JPanel
 	        profilesBg.setCapability(BranchGroup.ALLOW_BOUNDS_READ);
 	        addProfiles(profiles,profilesBg,fp);
 	        addTexts(profiles,profilesBg,fp);
-            triangulate();
-
+            qhull(null);
+	        //triangulate();
 	        bounds = (BoundingSphere) profilesBg.getBounds();
 	        
 	        Point3d center = new Point3d();
@@ -867,27 +871,43 @@ public final class J3DProfileViewer extends JPanel
         // new size of the scene.
         updateTextScale(null);
     }
-    /**
-     * Triangulates the profile list and displays de result.
-     *
-     */
+
+    public Point3d [] inversePoint3dArray(Point3d []input){
+        Point3d []result = new Point3d[input.length];
+        for(int i=0; i < input.length; i++){
+            result[result.length-i-1] = input[i];
+        }
+        return result;
+    }
+    
     public void triangulate(){
         ArrayList list=new ArrayList();
         Iterator it = profileBGList.iterator();
-        int stripCountArray [] = new int[profileBGList.size()];
-        int profileCount = 0;
-        int pointCount = 0;
-        while(it.hasNext()){
-            ProfileShape3D shape = (ProfileShape3D)((BranchGroup) it.next()).getChild(0);
-            list.addAll(Arrays.asList(shape.getPoints()));
-            stripCountArray[profileCount++] = shape.getPoints().length;
-            pointCount += shape.getPoints().length;
+        ProfileShape3D profileShapes[] = new ProfileShape3D[profileBGList.size()];
+        for(int i=0;it.hasNext();i++){
+            profileShapes[i] = (ProfileShape3D)((BranchGroup) it.next()).getChild(0);
         }
-        Point3d pointArray[] = new Point3d[pointCount];
-        for (int i=0;i<pointCount;i++){
-            pointArray[i] = (Point3d) list.get(i);
+        for (int index = 0;index<profileShapes.length-1;index++){
+//            Point3d [] profile1Points = inversePoint3dArray(profileShapes[index].getPoints());
+//            Point3d [] profile2Points = inversePoint3dArray(profileShapes[index+1].getPoints());
+          Point3d [] profile1Points = profileShapes[index].getPoints();
+          Point3d [] profile2Points = profileShapes[index+1].getPoints();
+            triangulate2Profiles(profile1Points,profile2Points);
         }
-        int contourCountArray[] = {stripCountArray.length};
+    }
+    
+    private void triangulate2Profiles(Point3d[] profile1, Point3d[] profile2){
+        Point3d []pointArray = new Point3d[(profile1.length+profile2.length)];
+        for(int i=0; i<profile1.length; i++){
+            pointArray[i]=profile1[i];
+        }
+        for(int i=0; i<profile2.length; i++){
+            pointArray[i+profile1.length]=profile2[i];
+        }
+        int [] stripCountArray = new int[1];
+        stripCountArray[0] = profile1.length+profile2.length;
+//        stripCountArray[1] = profile2.length;
+        int [] contourCountArray = {1};
         GeometryInfo gi = new GeometryInfo(GeometryInfo.POLYGON_ARRAY);
         gi.setCoordinates(pointArray);
         gi.setStripCounts(stripCountArray);
@@ -895,16 +915,73 @@ public final class J3DProfileViewer extends JPanel
         NormalGenerator normalGenerator = new NormalGenerator();
         normalGenerator.generateNormals(gi);
         Appearance ap = new Appearance();
-//      render as a wireframe
+//          render as a wireframe
         PolygonAttributes polyAttrbutes = new PolygonAttributes();
         polyAttrbutes.setPolygonMode( PolygonAttributes.POLYGON_LINE );
         polyAttrbutes.setCullFace( PolygonAttributes.CULL_NONE ) ;
         ap.setPolygonAttributes( polyAttrbutes );
-//        add both a wireframe and a solid version
-//        of the triangulated surface
+//            add both a wireframe and a solid version
+//            of the triangulated surface
         Shape3D shape1 = new Shape3D( gi.getGeometryArray(), ap );
         Shape3D shape2 = new Shape3D( gi.getGeometryArray() );
         profilesBg.addChild(shape1);
-//       profilesBg.addChild(shape2);
+//           profilesBg.addChild(shape2);
+    }
+    
+    void qhull(Point3d[] points){
+        quickhull3d.Point3d [] pointArray;
+        if(points == null) {
+            Iterator it = profileBGList.iterator();
+            ArrayList pointsList = new ArrayList();
+            for(int i=0;it.hasNext();i++){
+                ProfileShape3D profileShape = (ProfileShape3D)((BranchGroup) it.next()).getChild(0);
+                for (int j=0; j<profileShape.getPoints().length; j++){
+                    Point3d profilePoint = profileShape.getPoints()[j];
+                    quickhull3d.Point3d auxPoint = new quickhull3d.Point3d(profilePoint.x,profilePoint.y,profilePoint.z);
+                    pointsList.add(auxPoint);
+                }
+            }
+            pointArray = new quickhull3d.Point3d [pointsList.size()];
+            for(int i=0; i < pointsList.size(); i++) {
+                quickhull3d.Point3d auxPoint = (quickhull3d.Point3d)pointsList.get(i);
+                pointArray[i] = new quickhull3d.Point3d(auxPoint.x,auxPoint.y,auxPoint.z);
+            }
+        } else {
+            pointArray = new quickhull3d.Point3d [points.length];
+            for(int i=0; i < points.length; i++) {
+                pointArray[i] = new quickhull3d.Point3d(points[i].x,points[i].y,points[i].z);
+            }
+        }
+        QuickHull3D qhull = new QuickHull3D();
+        qhull.build(pointArray);
+        quickhull3d.Point3d []vertices = qhull.getVertices();
+        for (int i = 0; i < vertices.length; i++)
+        {
+            quickhull3d.Point3d pnt = vertices[i];
+            System.out.println (pnt.x + " " + pnt.y + " " + pnt.z);
+        }
+        int[][] faceIndices = qhull.getFaces();
+        for (int i = 0; i < vertices.length; i++) {
+           Point3d[] facePoints = new Point3d[faceIndices[i].length];
+           PointArray pointCloud = new PointArray(faceIndices[i].length,
+                    GeometryArray.COORDINATES);
+           for (int k = 0; k < faceIndices[i].length; k++) { 
+               facePoints[k] = new Point3d(vertices[faceIndices[i][k]].x,
+                       vertices[faceIndices[i][k]].y,
+                       vertices[faceIndices[i][k]].z);
+                pointCloud.setCoordinate(k,facePoints[k]);
+           }
+           Shape3D shape = new Shape3D();
+           if(facePoints.length > 1){
+                int[] stripCounts = new int[] {facePoints.length};
+                LineStripArray geometry = new LineStripArray(facePoints.length,
+                        GeometryArray.COORDINATES,stripCounts);
+                geometry.setCoordinates(0,facePoints);
+                shape.setGeometry(geometry);
+           } else {
+                shape.setGeometry(pointCloud);
+           }
+           profilesBg.addChild(shape);
+        }
     }
 }

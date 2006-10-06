@@ -52,6 +52,19 @@ public class Start {
     private static final String message_es = "Error interno no especifico. Por favor "+
     	"reporte este error.";
     private static final String title = "Tunelator - Error";
+    /**
+     * Tests if the default locale has specific support
+     */
+    private static boolean isLocaleSupported(){
+        Locale defaultLocale = Locale.getDefault();
+        String [] supportedLangs = Constants.SUPPORTED_LANGS;
+        for(int i=0; i < supportedLangs.length; i++) {
+            if(defaultLocale.getLanguage().equals(new Locale(supportedLangs[i],"","").getLanguage())) {
+                return true;
+            }
+        }
+        return false;
+    }
 	/**
 	 * Bootstraps the application, creates and shows the user interface
 	 * @param args
@@ -62,11 +75,15 @@ public class Start {
 // Set log level as configured at the application parameters		    
 		    Logger.setLogThreshold(AppParameters.getParams().getProperty(
 		                           "log.threshold",AppParameters.LOG_ERROR));
+//        If the language of the default locale is not supported revert to english
+            if(!isLocaleSupported()){
+                Locale.setDefault(new Locale("en","",""));
+            } else {
+                Locale.setDefault(new Locale(Locale.getDefault().getLanguage(),"",""));
+            }
 // Log application startup		    
 		    Logger.logInfo(Start.class,Resourcer.getString(null,
 		                                         "log.info.startup"));
-// Set spanish as default language and Spain as default country		    
-            Locale.setDefault(new Locale("es","ES"));
 // To set up the Look and Feel
 			UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows."+
 			                         "WindowsLookAndFeel");
@@ -95,7 +112,8 @@ public class Start {
                     // This is the last resort to give a localized message
                     // As I'm spanish :-), we give a spanish message if it's
                     // the default language, and an english one otherwise.
-                    if(Locale.getDefault().equals(new Locale("es"))){
+                    if(Locale.getDefault().getLanguage().equals(new Locale("es",
+                            "","").getLanguage())){
                         message = message_es;
                     } else {
                         message = message_en;
@@ -122,7 +140,8 @@ public class Start {
                     // This is the last resort to give a localized message
                     // As I'm spanish :-), we give a spanish message if it's
                     // the default language, and an english one otherwise.
-                    if(Locale.getDefault().equals(new Locale("es"))){
+                    if(Locale.getDefault().getLanguage().equals(new Locale("es",
+                            "","").getLanguage())){
                         message = message_es;
                     } else {
                         message = message_en;

@@ -52,4 +52,11 @@ public class Constants {
 	 * Time values have to be referenced to the same date to be compared
 	 */
 	public static final String TIME_REFERENCE_DATE = "27.12.1971";
+    /**
+     * Supported languages. Used to test at bootstrap if the locale is supported
+     */
+    public static final String[] SUPPORTED_LANGS = {
+        "es", // Spanish 
+        "en"  // English
+        };
 }

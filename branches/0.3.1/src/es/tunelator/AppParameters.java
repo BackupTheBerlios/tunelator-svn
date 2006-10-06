@@ -60,7 +60,7 @@ public class AppParameters {
     /**
      * HTML file with the about dialog content
      */
-	public static final String ABOUT_FILE = "about.file";
+	public static final String ABOUT_PATH = "about.path";
     /**
      * YES
      */
@@ -148,7 +148,7 @@ public class AppParameters {
 			    Logger.logDebug(AppParameters.class,"Install path URL is "+path);
 			    int endOfRootPath = path.indexOf(className);
 			    if(endOfRootPath < 0){
-			        String message = "Finding out intall path: Class name not found in class path";
+			        String message = "Finding out intall path: Class name "+className+" not found in class path";
 			        Logger.logFatal(AppParameters.class,message);
 			        throw new InternalError(message);
 			    }
