@@ -210,7 +210,7 @@ public class EditPointsDialog extends JDialog {
 	 */
 	private JPanel jPanel = null;
 	/**
-	 * The HTML text. Empty if the resource si not found.
+	 * The HTML text. Defaults to empty if the resource is not found.
 	 */
 	private static String helpText = "<html><head></head><body><p></p>"+
                                      "</body></html>";
@@ -646,17 +646,29 @@ public class EditPointsDialog extends JDialog {
         } else {
             this.data = data;
         }
+        if(data.getPointID() !=  null){
+            getJID(allowEmptyValues).setText(data.getPointID());
+        }
         if(data.getCode() !=  null){
             getJCode(true).setText(data.getCode());
+        }
+        if(data.getIndexInPK() !=  null){
+            this.getJPKIndex(allowEmptyValues).setText(data.getIndexInPK());
+        }
+        if(data.getPkTeor() !=  null){
+            this.getJPKT(allowEmptyValues).setText(data.getPkTeor());
+        }
+        if(data.getPkAct() !=  null){
+            this.getJPKA(allowEmptyValues).setText(data.getPkAct());
         }
         if(data.getDate() !=  null){
             getJDate(allowEmptyValues).setText(data.getDate());
         }
+        if(data.getTime()!=null) {
+            getJTime(allowEmptyValues).setText(data.getTime());
+        }
         if(data.getDeje() != null){
             getJDeje(allowEmptyValues).setText(data.getDeje());
-        }
-        if(data.getHeight()!=null) {
-            getJTime(allowEmptyValues).setText(data.getTime());
         }
         if(data.getXCoord()!=null){
             getJX(allowEmptyValues).setText(data.getXCoord());
@@ -664,8 +676,11 @@ public class EditPointsDialog extends JDialog {
         if(data.getYCoord()!=null){
             getJY(allowEmptyValues).setText(data.getYCoord());
         }
+        if(data.getHeight()!=null){
+            this.getJZ(allowEmptyValues).setText(data.getHeight());
+        }
         if(data.getHeightInc()!=null){
-            this.getJIncZ(allowEmptyValues).setText(data.getHeightInc());
+            getJIncZ(allowEmptyValues).setText(data.getHeightInc());
         }
     }
     /**

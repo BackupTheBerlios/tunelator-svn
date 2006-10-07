@@ -2,7 +2,7 @@
 <!-- ====================================================================== 
      1-may-2006                                                        
 
-     Tunelator 0.3.0    
+     Tunelator 0.3.0
                    
 	 Tunelator surveying software.
 	  
@@ -23,7 +23,7 @@
 	 MA  02110-1301, USA.
      
      ====================================================================== -->
-<project name="Tunelator" default="build.pack" basedir="c:/proyectos/tunelator/">
+<project name="Tunelator" default="build.pack" basedir="c:/proyectos/tunelator/trunk">
     <description>
             Tunelator ${project.version}. Juan Alvarez Ferrando
     </description>
@@ -83,19 +83,19 @@
 	<target name="build.setupLauncher" depends="build.installer">
     	<launch4j configFile="${project.installer.src}/setup-launcher.xml" 
     	          outfile="${project.installer.dir}/cd/setup.exe"
-    	          fileVersion="${project.version}.0"
-    	          txtFileVersion="${project.version}.0"
-    	          productVersion="${project.version}.0"
-    	          txtProductVersion="${project.version}.0"/>
+    	          fileVersion="${project.version}.1"
+    	          txtFileVersion="${project.version}.1"
+    	          productVersion="${project.version}.1"
+    	          txtProductVersion="${project.version}.1"/>
     </target>
 
     <target name="build.launcher" depends="build.pack">
     	<launch4j configFile="${project.installer.src}/tunelator-launcher.xml" 
     	          outfile="${project.installer.dir}/launcher/tunelator.exe"
-    	          fileVersion="${project.version}.0"
-    	          txtFileVersion="${project.version}.0"
-    	          productVersion="${project.version}.0"
-    	          txtProductVersion="${project.version}.0"/>
+    	          fileVersion="${project.version}.1"
+    	          txtFileVersion="${project.version}.1"
+    	          productVersion="${project.version}.1"
+    	          txtProductVersion="${project.version}.1"/>
     </target>
 	
     <target name="build.pack" depends="build.src">
@@ -112,6 +112,9 @@
         <delete>
             <fileset dir="${project.buildDir}" includes="${project.jarFileName}"/>
          </delete>
+        <delete file="${project.installer.dir}/launcher/tunelator.exe"/>
+        <delete file="${project.installer.dir}/cd/setup.exe"/>
+        <delete file="${project.installer.dir}/tunelator-install.jar"/>
     </target>
     
     <target name="run.main" depends="build.pack">

@@ -60,7 +60,7 @@ public class AppParameters {
     /**
      * HTML file with the about dialog content
      */
-	public static final String ABOUT_FILE = "about.file";
+	public static final String ABOUT_PATH = "about.path";
     /**
      * YES
      */

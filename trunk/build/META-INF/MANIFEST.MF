@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Main-Class: es.tunelator.Start
 Class-Path: lib/bc-jce-jdk13-126.jar lib/castor-0.9.5.4-xml.jar lib/commons-logging.jar lib/commons-logging-api.jar lib/junit.jar lib/pom0.1b.jar lib/stylebook-1.0-b3_xalan-2.jar lib/xalan.jar lib/xercesImpl.jar lib/xml-apis.jar lib/xmlParserAPIs.jar lib/xmlsec.jar lib/glazedlists.jar lib/forms-1.0.5.jar
 Implementation-Title: "es.tunelator"
-Implementation-Version: "0.3"
+Implementation-Version: "0.3.0"
 Implementation-Vendor-Id: "es.tunelator"
 Implementation-Vendor: "Tunelator Project"
 

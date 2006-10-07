@@ -49,6 +49,7 @@ public class HTMLDialog extends JDialog {
 	private JPanel jPanel = null;
 	private JTextPane jTextPane = null;
 	private String filePath = null;
+    private String title = "";
 	private JScrollPane jScrollPane = null;
 	/**
 	 * This method initializes 
@@ -79,9 +80,10 @@ public class HTMLDialog extends JDialog {
 	 * This method initializes 
 	 * 
 	 */
-	public HTMLDialog(Frame parent,String filePath) {
+	public HTMLDialog(Frame parent,String title,String filePath) {
 		super(parent);
 		this.filePath = filePath;
+        setTitle(title);
 		initialize();
 	}
 	/**
@@ -94,7 +96,6 @@ public class HTMLDialog extends JDialog {
         this.setResizable(false);
         this.setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         this.setContentPane(getJPanel());
-		this.setTitle("Acerca de Tunelator 0.3.0");
 		this.setSize(new Dimension(340,475));
 		this.setLocationRelativeTo(this.getOwner());
 	}
@@ -131,7 +132,7 @@ public class HTMLDialog extends JDialog {
 			jTextPane.setFocusable(false);
 			jTextPane.setMargin(new Insets(0,0,0,0));
 			if(filePath == null){
-				String fileName = Resourcer.getString(this.getClass(),"htmlFile");
+				String fileName = Resourcer.getString(this.getClass(),"helpFile");
 			    filePathStr = AppParameters.getParams().
 			    	getProperty(AppParameters.HELP_PATH)+"/"+fileName;
 			}
@@ -141,6 +142,7 @@ public class HTMLDialog extends JDialog {
 //			    jTextPane.setPreferredSize(new java.awt.Dimension(324,284));
 			} catch (IOException e){
 			    jTextPane.setText("<html><head></head><body><p><h1>Content not found</h1></p>"+
+                        "<p>"+filePathStr+"</p>"+
 			            "</body></html>");
 			}
 		}

@@ -724,8 +724,11 @@ public class MainFrame extends JFrame implements UndoCommandListener {
 				 * AboutDialog(Frame)
 				 */
 				public void actionPerformed(java.awt.event.ActionEvent e) {
-				    new HTMLDialog(MainFrame.this,AppParameters.
-				            getProperty(AppParameters.ABOUT_FILE)).setVisible(true);
+                    new HTMLDialog(MainFrame.this,
+                            Resourcer.getString(MainFrame.class,"aboutDialog.title"),
+                            AppParameters.getProperty(AppParameters.ABOUT_PATH)+"/"+
+                            Resourcer.getString(HTMLDialog.class,"file"))
+                            .setVisible(true);
 				}
 			});
 		}

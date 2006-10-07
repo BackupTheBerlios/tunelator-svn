@@ -52,86 +52,105 @@ public class Start {
     private static final String message_es = "Error interno no especifico. Por favor "+
     	"reporte este error.";
     private static final String title = "Tunelator - Error";
+    /**
+     * Tests if the default locale has specific support
+     */
+    private static boolean isLocaleSupported(){
+        Locale defaultLocale = Locale.getDefault();
+        String [] supportedLangs = Constants.SUPPORTED_LANGS;
+        for(int i=0; i < supportedLangs.length; i++) {
+            if(defaultLocale.getLanguage().equals(new Locale(supportedLangs[i],"","").getLanguage())) {
+                return true;
+            }
+        }
+        return false;
+    }
 	/**
 	 * Bootstraps the application, creates and shows the user interface
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		MainFrame frame = null;
-		try {
-// Set log level as configured at the application parameters		    
-		    Logger.setLogThreshold(AppParameters.getParams().getProperty(
-		                           "log.threshold",AppParameters.LOG_ERROR));
-// Log application startup		    
-		    Logger.logInfo(Start.class,Resourcer.getString(null,
-		                                         "log.info.startup"));
-// Set spanish as default language and Spain as default country		    
-            Locale.setDefault(new Locale("es","ES"));
+        MainFrame frame = null;
+        try {
+// Set log level as configured at the application parameters            
+            Logger.setLogThreshold(AppParameters.getParams().getProperty(
+                                   "log.threshold",AppParameters.LOG_ERROR));
+//        If the language of the default locale is not supported revert to english
+            if(!isLocaleSupported()){
+                Locale.setDefault(new Locale("en","",""));
+            } else {
+                Locale.setDefault(new Locale(Locale.getDefault().getLanguage(),"",""));
+            }
+// Log application startup          
+            Logger.logInfo(Start.class,Resourcer.getString(null,
+                                                 "log.info.startup"));
 // To set up the Look and Feel
-			UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows."+
-			                         "WindowsLookAndFeel");
-			frame = new MainFrame();
-			frame.setVisible(true);
-			frame.correctTabStatus();
+            UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows."+
+                                     "WindowsLookAndFeel");
+            frame = new MainFrame();
+            frame.setVisible(true);
+            frame.correctTabStatus();
 // To change the Look and Feel. To be included as an option some day...
-//	  		UIManager.setLookAndFeel("com.sun.java.swing.plaf.gtk."+
-//			"GTKLookAndFeel");
-//			SwingUtilities.updateComponentTreeUI(frame);
-//			frame.pack();
-		} catch (Exception e) {
-		    Logger.logFatal(Start.class,e);
+//          UIManager.setLookAndFeel("com.sun.java.swing.plaf.gtk."+
+//          "GTKLookAndFeel");
+//          SwingUtilities.updateComponentTreeUI(frame);
+//          frame.pack();
+        } catch (Exception e) {
+            Logger.logFatal(Start.class,e);
             if(frame != null){
                 frame.showErrorMessage(Resourcer.getString(null,
-	                                         "error.internal"));
+                                             "error.internal"));
                 frame.dispose();
             } else {
                 try {
                     JOptionPane.showMessageDialog(null,
                             Resourcer.getString(Start.class,"error.internal"),
-	                        Resourcer.getString(Start.class,"error.title"),
-	                        JOptionPane.ERROR_MESSAGE);
+                            Resourcer.getString(Start.class,"error.title"),
+                            JOptionPane.ERROR_MESSAGE);
                 } catch (Exception e2) {
                     String message = "";
                     // This is the last resort to give a localized message
                     // As I'm spanish :-), we give a spanish message if it's
                     // the default language, and an english one otherwise.
-                    if(Locale.getDefault().equals(new Locale("es"))){
+                    if(Locale.getDefault().getLanguage().equals(new Locale("es",
+                            "","").getLanguage())){
                         message = message_es;
                     } else {
                         message = message_en;
                     }
                     JOptionPane.showMessageDialog(null, message, title,
-	                        JOptionPane.ERROR_MESSAGE);
+                            JOptionPane.ERROR_MESSAGE);
                 }
             }
-			System.exit(1);
-		} catch (InternalError e) {
-		    Logger.logFatal(Start.class,e);
+            System.exit(1);
+        } catch (InternalError e) {
+            Logger.logFatal(Start.class,e);
             if(frame != null){
                 frame.showErrorMessage(Resourcer.getString(null,
-	                                         "error.internal"));
+                                             "error.internal"));
                 frame.dispose();
             } else {
                 try {
                     JOptionPane.showMessageDialog(null,
                             Resourcer.getString(Start.class,"error.internal"),
-	                        Resourcer.getString(Start.class,"error.title"),
-	                        JOptionPane.ERROR_MESSAGE);
+                            Resourcer.getString(Start.class,"error.title"),
+                            JOptionPane.ERROR_MESSAGE);
                 } catch (Exception e2) {
                     String message = "";
                     // This is the last resort to give a localized message
                     // As I'm spanish :-), we give a spanish message if it's
                     // the default language, and an english one otherwise.
-                    if(Locale.getDefault().equals(new Locale("es"))){
+                    if(Locale.getDefault().getLanguage().equals(new Locale("es",
+                            "","").getLanguage())){
                         message = message_es;
                     } else {
                         message = message_en;
                     }
                     JOptionPane.showMessageDialog(null, message, title,
-	                        JOptionPane.ERROR_MESSAGE);
+                            JOptionPane.ERROR_MESSAGE);
                 }
             }
-			System.exit(1);
-		}
+            System.exit(1);
+        }
 	}
 }
