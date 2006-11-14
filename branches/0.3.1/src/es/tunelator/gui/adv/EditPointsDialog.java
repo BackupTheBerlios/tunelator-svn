@@ -215,24 +215,11 @@ public class EditPointsDialog extends JDialog {
 	private static String helpText = "<html><head></head><body><p></p>"+
                                      "</body></html>";
 	/**
-	 * Bundle from which the resources for this dialog are read
-	 */
-	public static ResourceBundle resources = null;
-	/**
 	 * <code>ErrorListener</code> implementators that listen for errors
 	 * occurred in this dialog. Used to relay error management.
 	 */
 	private Vector errorListeners = new Vector();
 	
-	static {
-	    try {
-	        String bundleStr = EditPointsDialog.class.getName();
-			resources = ResourceBundle.getBundle(bundleStr);
-	    } catch (Exception e) {
-	        Logger.logError(EditPointsDialog.class,e);
-	        throw new InternalError(Resourcer.getString(null,"error.internal"));
-	    }
-	}
     /**
      * Calls <code>JDialog(Frame)</code> and initializes the dialog.
      * @param owner Parent <code>JFrame</code> 
@@ -646,17 +633,29 @@ public class EditPointsDialog extends JDialog {
         } else {
             this.data = data;
         }
+        if(data.getPointID() !=  null){
+            getJID(allowEmptyValues).setText(data.getPointID());
+        }
         if(data.getCode() !=  null){
             getJCode(true).setText(data.getCode());
+        }
+        if(data.getIndexInPK() !=  null){
+            this.getJPKIndex(allowEmptyValues).setText(data.getIndexInPK());
+        }
+        if(data.getPkTeor() !=  null){
+            this.getJPKT(allowEmptyValues).setText(data.getPkTeor());
+        }
+        if(data.getPkAct() !=  null){
+            this.getJPKA(allowEmptyValues).setText(data.getPkAct());
         }
         if(data.getDate() !=  null){
             getJDate(allowEmptyValues).setText(data.getDate());
         }
+        if(data.getTime()!=null) {
+            getJTime(allowEmptyValues).setText(data.getTime());
+        }
         if(data.getDeje() != null){
             getJDeje(allowEmptyValues).setText(data.getDeje());
-        }
-        if(data.getHeight()!=null) {
-            getJTime(allowEmptyValues).setText(data.getTime());
         }
         if(data.getXCoord()!=null){
             getJX(allowEmptyValues).setText(data.getXCoord());
@@ -664,8 +663,11 @@ public class EditPointsDialog extends JDialog {
         if(data.getYCoord()!=null){
             getJY(allowEmptyValues).setText(data.getYCoord());
         }
+        if(data.getHeight()!=null){
+            this.getJZ(allowEmptyValues).setText(data.getHeight());
+        }
         if(data.getHeightInc()!=null){
-            this.getJIncZ(allowEmptyValues).setText(data.getHeightInc());
+            getJIncZ(allowEmptyValues).setText(data.getHeightInc());
         }
     }
     /**

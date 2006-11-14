@@ -141,7 +141,7 @@ public class HTMLDialog extends JDialog {
 //			    jTextPane.setPreferredSize(new java.awt.Dimension(324,284));
 			} catch (IOException e){
 			    jTextPane.setText("<html><head></head><body><p><h1>Content not found</h1></p>"+
-                        "<p>"+this.filePath+"</p>"+
+                        "<p>"+filePath+"</p>"+
 			            "</body></html>");
 			}
 		}

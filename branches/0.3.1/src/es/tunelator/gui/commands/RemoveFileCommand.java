@@ -60,12 +60,12 @@ public class RemoveFileCommand implements Command {
         return null;
     }
     /**
-     * Adds a file to the currently selected job node in the tree
+     * Removes the currently selected file
      * @see es.tunelator.gui.commands.Command#execute()
      */
     public void execute() throws UserMessageException {
 		DefaultMutableTreeNode selectedNode = (DefaultMutableTreeNode)frame.getJTree().getLastSelectedPathComponent();
-		if((selectedNode != null) && (selectedNode.getLevel()>1)){
+		if((selectedNode != null) && (selectedNode.getLevel()>2)){
 		    // Next of the parent's children
 		    DefaultMutableTreeNode nextSibling = selectedNode.getNextSibling();
 		    // Previous of the parent's children

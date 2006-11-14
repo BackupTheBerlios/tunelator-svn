@@ -4,17 +4,13 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="lib/commons-logging.jar"/>
 	<classpathentry kind="lib" path="lib/commons-logging-api.jar"/>
-	<classpathentry kind="lib" path="lib/junit.jar"/>
-	<classpathentry kind="lib" path="lib/stylebook-1.0-b3_xalan-2.jar"/>
-	<classpathentry kind="lib" path="lib/xalan.jar"/>
-	<classpathentry kind="lib" path="lib/xercesImpl.jar"/>
-	<classpathentry kind="lib" path="lib/xml-apis.jar"/>
-	<classpathentry kind="lib" path="lib/xmlParserAPIs.jar"/>
-	<classpathentry kind="lib" path="lib/xmlsec.jar"/>
-	<classpathentry kind="lib" path="lib/castor-0.9.5.4-xml.jar"/>
 	<classpathentry kind="lib" path="lib/log4j-1.2.9.jar"/>
-	<classpathentry kind="lib" path="lib/mail.jar"/>
 	<classpathentry kind="lib" path="lib/forms-1.0.5.jar"/>
 	<classpathentry kind="lib" path="lib/glazedlists.jar"/>
+	<classpathentry kind="src" path="generated-src"/>
+	<classpathentry kind="lib" path="lib/jsr173_1.0_api.jar"/>
+	<classpathentry kind="lib" path="lib/xbean.jar"/>
+	<classpathentry kind="lib" path="C:/Desarrollo/xmlbeans-2.2.0/lib/xbean_xpath.jar"/>
+	<classpathentry kind="lib" path="C:/Desarrollo/xmlbeans-2.2.0/landxml11.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

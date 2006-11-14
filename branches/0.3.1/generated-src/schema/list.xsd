@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by Nathan Crews (Autodesk) -->
+<!--Date Posted: 7/21/2006 -->
+<xs:schema xmlns="http://www.listTest.org" xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.listTest.org" version="1.0" id="list.xsd">
+
+<xs:simpleType name="Point">
+<xs:list itemType="xs:double"/>
+</xs:simpleType>
+
+<xs:simpleType name="Point3dOpt">
+<xs:restriction base="Point">
+<xs:minLength value="0"/>
+<xs:maxLength value="3"/>
+</xs:restriction>
+</xs:simpleType>
+
+<xs:element name="Start" type="Point3dOpt">
+</xs:element>
+
+<xs:element name="Line">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="Start"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+</xs:schema>

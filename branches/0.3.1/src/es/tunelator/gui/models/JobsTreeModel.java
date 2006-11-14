@@ -44,6 +44,13 @@ import es.tunelator.resources.Resourcer;
  * @author <a href="mailto:jaferrando@users.berlios.de">Juan Alvarez Ferrando</a>
  */
 public class JobsTreeModel extends DefaultTreeModel {
+    // The depth of the different kind of nodes in the tree
+    public static final int JOB_LEVEL=1;
+    public static final int PROFILES_LEVEL=2;
+    public static final int ALIGMENTS_LEVEL=2;
+    public static final int POINTSFILE_LEVEL=3;
+    public static final int ALIGMENT_LEVEL=3;
+    public static final int PROFILE_LEVEL=4;
     /**
      * Creates the model with a default root node.
      * The mainframe.tree.root text resource is used. 
@@ -80,8 +87,8 @@ public class JobsTreeModel extends DefaultTreeModel {
             DefaultMutableTreeNode aux = (DefaultMutableTreeNode)en.
             	nextElement();
             Object obj = aux.getUserObject();
-            // ListTreeNodeUpdaters are object that are inserted as the user 
-            // objects of those nodes in a Jtree that we want acuthomatically
+            // ListTreeNodeUpdaters are objects that are inserted as the user 
+            // objects of those nodes in a Jtree that we want authomatically
             // updated based on the changes of an underlying EventList.
             // This type of objects save the user object they are substituting
             // but this forces to take them as a special case here.
@@ -96,7 +103,7 @@ public class JobsTreeModel extends DefaultTreeModel {
         return node;
     }
     /**
-     * Returns the node in the tree of the file that contains the given 
+     * Returns the node in the tree for the file that contains the given 
      * profile object.
      * @param profile The profile object who's file node is searched for
      * @return The <code>DefaultMutableTreeNode</code> of the corresponding 
@@ -143,12 +150,27 @@ public class JobsTreeModel extends DefaultTreeModel {
             GUIFileVO guiFileVO) throws UserMessageException {
         try {
 	        if(jobNode != null && jobNode.getLevel()==1){
+                // Get the Profiles node under the job if there's one
+                String profilesNodeKey = Resourcer.getString(MainFrame.class,
+                        "mainframe.tree.profilesNode");
+                DefaultMutableTreeNode profilesNode = getObjectTreeNode(jobNode,profilesNodeKey);
+                if(profilesNode == null) {
+                    profilesNode = new DefaultMutableTreeNode();
+                    profilesNode.setUserObject(profilesNodeKey);
+                    // The profiles node is number 1, as we want the alignmets
+                    // node to be the first (number 0).
+                    if(jobNode.getChildCount() > 0) {
+                        jobNode.insert(profilesNode,1);
+                    } else {
+                        jobNode.add(profilesNode);
+                    }
+                }
 	            DefaultMutableTreeNode fileNode = new DefaultMutableTreeNode();
-	            jobNode.add(fileNode);
+	            profilesNode.add(fileNode);
 	            ListTreeNodeUpdater nodeUpdater = new FileNodeUpdater(this,
 	                    fileNode,guiFileVO.getGroups(),guiFileVO);
 	            fileNode.setUserObject(nodeUpdater);
-	            this.reload(jobNode);
+	            this.reload(profilesNode);
 	            return fileNode;
 	        }
 	        return(jobNode);
@@ -165,8 +187,8 @@ public class JobsTreeModel extends DefaultTreeModel {
     public void removeFile(DefaultMutableTreeNode jobNode, File file) {
         DefaultMutableTreeNode fileNode = null;
         if(jobNode == null){
-            throw new IllegalArgumentException("Requested to remove a null"
-                    +" job node");
+            throw new IllegalArgumentException("Requested to remove file,"+
+                    "giving a null job node");
         }
         fileNode = getObjectTreeNode(jobNode,file);
         if(fileNode != null){

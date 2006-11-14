@@ -1,13 +1,13 @@
 <launch4jConfig>
   <headerType>0</headerType>
-  <jar>C:\Proyectos\tunelator\build\tunelator-0.3.0.jar</jar>
-  <outfile>C:\Proyectos\tunelator\installer\launcher\tunelator.exe</outfile>
+  <jar>C:\Proyectos\tunelator\build\Tunelator 0.3.1\tunelator-0.3.1.jar</jar>
+  <outfile>C:\Proyectos\tunelator\Tunelator 0.3.1\installer\launcher\tunelator.exe</outfile>
   <errTitle>Tunelator</errTitle>
   <jarArgs></jarArgs>
   <chdir>installer/launcher</chdir>
   <customProcName>true</customProcName>
   <stayAlive>false</stayAlive>
-  <icon>C:\Proyectos\tunelator\images\tunelator.ico</icon>
+  <icon>C:\Proyectos\tunelator\Tuneltor 0.3.1\images\tunelator.ico</icon>
   <jre>
     <path>jre</path>
     <minVersion></minVersion>

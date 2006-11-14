@@ -32,6 +32,7 @@
 	<property name="project.version" value="0.3.1"/>
 	<property name="project.jarFileName" value="tunelator-${project.version}.jar"/>
 	<property name="project.sourceDir" value="${basedir}/src"/>
+	<property name="project.generatedSourceDir" value="${basedir}/generated-src"/>
 	<property name="project.binDir" value="${basedir}/bin"/>
 	<property name="project.libDir" value="${basedir}/lib"/>
 	<property name="project.buildDir" value="${basedir}/build"/>
@@ -41,6 +42,46 @@
 	<property name="project.manifest" value="${project.buildDir}/META-INF/MANIFEST.MF"/>
 
 	<property name="izpack.dir" value="c:/proyectos/izpack"/>
+
+	<path id="castor.class.path">
+		<fileset dir="${project.buildDir}" includes="${project.buildDir}/libs/*.jar"/> 
+	</path>
+
+	<!-- To make this work in eclipse, insert in Window->Preferences->Ant->Runtime->Ant Home Entries
+	     the following jar files:
+	     - castor-1.0.4-srcgen-ant-task.jar
+	     - castor-1.0.4.jar
+	     - commons-logging.jar
+	     - xerces-impl.jar
+	     -->
+	<taskdef name="castor-srcgen"
+                classname="org.exolab.castor.tools.ant.taskdefs.CastorSourceGenTask"
+                classpathref="castor.class.path" />
+
+	<target name="srcgen.landXMLv1.1"
+	             description="Generate Java source files from LandXML v1.1 XSD.">
+        <delete>
+            <fileset dir="${project.generatedSourceDir}/es" includes="**/*.*" excludes="**/SVN/*.*"/>
+        </delete>
+		<castor-srcgen file="generated-src/schema/LandXML-1.1.xsd"
+                      todir="generated-src"
+                      package="es.tunelator.vo.landXMLv11"
+                      types="j2"
+                      warnings="true" />
+	</target>
+
+	<target name="castor.test.line"
+	             description="Generate Java source files from test XSD.">
+        <delete>
+            <fileset dir="${project.generatedSourceDir}/test" includes="**/*.*" excludes="**/SVN/*.*"/>
+        </delete>
+		<castor-srcgen file="generated-src/schema/line.xsd"
+                      todir="generated-src"
+                      package="test.tunelator.vo"
+                      types="j2"
+                      warnings="true" />
+	</target>
+	
 	
 	<taskdef name="izpack" classpath="${izpack.dir}/lib/standalone-compiler.jar"
  		classname="com.izforge.izpack.ant.IzPackTask"/>
@@ -68,6 +109,13 @@
             <include name="**/es/tunelator/**/*.java" />
         </javac >
 
+        <javac srcdir="${project.GeneratedSourceDir}"
+            destdir="${project.binDir}"
+            optimize="on">
+            <classpath refid="classpath" />
+            <include name="**/es/tunelator/**/*.java" />
+        </javac >
+    	
         <copy todir="${project.binDir}" >
             <fileset dir="${project.sourceDir}"
                 includes="**/es/tunelator/**/*.properties,
@@ -82,7 +130,7 @@
 
 	<target name="build.setupLauncher" depends="build.installer">
     	<launch4j configFile="${project.installer.src}/setup-launcher.xml" 
-    	          outfile="${project.installer.dir}/cd/setup.exe"
+    	          outfile="${project.installer.dir}/cd/tunelator-${project.version}.exe"
     	          fileVersion="${project.version}.0"
     	          txtFileVersion="${project.version}.0"
     	          productVersion="${project.version}.0"
@@ -111,7 +159,7 @@
         </delete>
         <delete>
             <fileset dir="${project.buildDir}" includes="${project.jarFileName}"/>
-         </delete>
+        </delete>
     </target>
     
     <target name="run.main" depends="build.pack">

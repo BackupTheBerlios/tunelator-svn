@@ -1,0 +1,249 @@
+/*
+ * An XML document type.
+ * Localname: SurveyorCertificate
+ * Namespace: http://www.landxml.org/schema/LandXML-1.1
+ * Java type: org.landxml.schema.landXML11.SurveyorCertificateDocument
+ *
+ * Automatically generated - do not modify.
+ */
+package org.landxml.schema.landXML11;
+
+
+/**
+ * A document containing one SurveyorCertificate(@http://www.landxml.org/schema/LandXML-1.1) element.
+ *
+ * This is a complex type.
+ */
+public interface SurveyorCertificateDocument extends org.apache.xmlbeans.XmlObject
+{
+    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(SurveyorCertificateDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s78E1CED5AEE3C33CCDF6CB018DD26479").resolveHandle("surveyorcertificatea29cdoctype");
+    
+    /**
+     * Gets the "SurveyorCertificate" element
+     */
+    org.landxml.schema.landXML11.SurveyorCertificateDocument.SurveyorCertificate getSurveyorCertificate();
+    
+    /**
+     * Sets the "SurveyorCertificate" element
+     */
+    void setSurveyorCertificate(org.landxml.schema.landXML11.SurveyorCertificateDocument.SurveyorCertificate surveyorCertificate);
+    
+    /**
+     * Appends and returns a new empty "SurveyorCertificate" element
+     */
+    org.landxml.schema.landXML11.SurveyorCertificateDocument.SurveyorCertificate addNewSurveyorCertificate();
+    
+    /**
+     * An XML SurveyorCertificate(@http://www.landxml.org/schema/LandXML-1.1).
+     *
+     * This is a complex type.
+     */
+    public interface SurveyorCertificate extends org.apache.xmlbeans.XmlObject
+    {
+        public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(SurveyorCertificate.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s78E1CED5AEE3C33CCDF6CB018DD26479").resolveHandle("surveyorcertificate7582elemtype");
+        
+        /**
+         * Gets the "name" attribute
+         */
+        java.lang.String getName();
+        
+        /**
+         * Gets (as xml) the "name" attribute
+         */
+        org.apache.xmlbeans.XmlString xgetName();
+        
+        /**
+         * Sets the "name" attribute
+         */
+        void setName(java.lang.String name);
+        
+        /**
+         * Sets (as xml) the "name" attribute
+         */
+        void xsetName(org.apache.xmlbeans.XmlString name);
+        
+        /**
+         * Gets the "certificateType" attribute
+         */
+        java.lang.String getCertificateType();
+        
+        /**
+         * Gets (as xml) the "certificateType" attribute
+         */
+        org.apache.xmlbeans.XmlString xgetCertificateType();
+        
+        /**
+         * True if has "certificateType" attribute
+         */
+        boolean isSetCertificateType();
+        
+        /**
+         * Sets the "certificateType" attribute
+         */
+        void setCertificateType(java.lang.String certificateType);
+        
+        /**
+         * Sets (as xml) the "certificateType" attribute
+         */
+        void xsetCertificateType(org.apache.xmlbeans.XmlString certificateType);
+        
+        /**
+         * Unsets the "certificateType" attribute
+         */
+        void unsetCertificateType();
+        
+        /**
+         * Gets the "textCertificate" attribute
+         */
+        java.lang.String getTextCertificate();
+        
+        /**
+         * Gets (as xml) the "textCertificate" attribute
+         */
+        org.apache.xmlbeans.XmlString xgetTextCertificate();
+        
+        /**
+         * True if has "textCertificate" attribute
+         */
+        boolean isSetTextCertificate();
+        
+        /**
+         * Sets the "textCertificate" attribute
+         */
+        void setTextCertificate(java.lang.String textCertificate);
+        
+        /**
+         * Sets (as xml) the "textCertificate" attribute
+         */
+        void xsetTextCertificate(org.apache.xmlbeans.XmlString textCertificate);
+        
+        /**
+         * Unsets the "textCertificate" attribute
+         */
+        void unsetTextCertificate();
+        
+        /**
+         * Gets the "surveyDate" attribute
+         */
+        java.util.Calendar getSurveyDate();
+        
+        /**
+         * Gets (as xml) the "surveyDate" attribute
+         */
+        org.apache.xmlbeans.XmlDate xgetSurveyDate();
+        
+        /**
+         * True if has "surveyDate" attribute
+         */
+        boolean isSetSurveyDate();
+        
+        /**
+         * Sets the "surveyDate" attribute
+         */
+        void setSurveyDate(java.util.Calendar surveyDate);
+        
+        /**
+         * Sets (as xml) the "surveyDate" attribute
+         */
+        void xsetSurveyDate(org.apache.xmlbeans.XmlDate surveyDate);
+        
+        /**
+         * Unsets the "surveyDate" attribute
+         */
+        void unsetSurveyDate();
+        
+        /**
+         * A factory class with static methods for creating instances
+         * of this type.
+         */
+        
+        public static final class Factory
+        {
+            public static org.landxml.schema.landXML11.SurveyorCertificateDocument.SurveyorCertificate newInstance() {
+              return (org.landxml.schema.landXML11.SurveyorCertificateDocument.SurveyorCertificate) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newInstance( type, null ); }
+            
+            public static org.landxml.schema.landXML11.SurveyorCertificateDocument.SurveyorCertificate newInstance(org.apache.xmlbeans.XmlOptions options) {
+              return (org.landxml.schema.landXML11.SurveyorCertificateDocument.SurveyorCertificate) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newInstance( type, options ); }
+            
+            private Factory() { } // No instance of this class allowed
+        }
+    }
+    
+    /**
+     * A factory class with static methods for creating instances
+     * of this type.
+     */
+    
+    public static final class Factory
+    {
+        public static org.landxml.schema.landXML11.SurveyorCertificateDocument newInstance() {
+          return (org.landxml.schema.landXML11.SurveyorCertificateDocument) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newInstance( type, null ); }
+        
+        public static org.landxml.schema.landXML11.SurveyorCertificateDocument newInstance(org.apache.xmlbeans.XmlOptions options) {
+          return (org.landxml.schema.landXML11.SurveyorCertificateDocument) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newInstance( type, options ); }
+        
+        /** @param xmlAsString the string value to parse */
+        public static org.landxml.schema.landXML11.SurveyorCertificateDocument parse(java.lang.String xmlAsString) throws org.apache.xmlbeans.XmlException {
+          return (org.landxml.schema.landXML11.SurveyorCertificateDocument) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( xmlAsString, type, null ); }
+        
+        public static org.landxml.schema.landXML11.SurveyorCertificateDocument parse(java.lang.String xmlAsString, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException {
+          return (org.landxml.schema.landXML11.SurveyorCertificateDocument) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( xmlAsString, type, options ); }
+        
+        /** @param file the file from which to load an xml document */
+        public static org.landxml.schema.landXML11.SurveyorCertificateDocument parse(java.io.File file) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (org.landxml.schema.landXML11.SurveyorCertificateDocument) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( file, type, null ); }
+        
+        public static org.landxml.schema.landXML11.SurveyorCertificateDocument parse(java.io.File file, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (org.landxml.schema.landXML11.SurveyorCertificateDocument) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( file, type, options ); }
+        
+        public static org.landxml.schema.landXML11.SurveyorCertificateDocument parse(java.net.URL u) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (org.landxml.schema.landXML11.SurveyorCertificateDocument) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( u, type, null ); }
+        
+        public static org.landxml.schema.landXML11.SurveyorCertificateDocument parse(java.net.URL u, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (org.landxml.schema.landXML11.SurveyorCertificateDocument) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( u, type, options ); }
+        
+        public static org.landxml.schema.landXML11.SurveyorCertificateDocument parse(java.io.InputStream is) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (org.landxml.schema.landXML11.SurveyorCertificateDocument) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( is, type, null ); }
+        
+        public static org.landxml.schema.landXML11.SurveyorCertificateDocument parse(java.io.InputStream is, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (org.landxml.schema.landXML11.SurveyorCertificateDocument) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( is, type, options ); }
+        
+        public static org.landxml.schema.landXML11.SurveyorCertificateDocument parse(java.io.Reader r) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (org.landxml.schema.landXML11.SurveyorCertificateDocument) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( r, type, null ); }
+        
+        public static org.landxml.schema.landXML11.SurveyorCertificateDocument parse(java.io.Reader r, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (org.landxml.schema.landXML11.SurveyorCertificateDocument) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( r, type, options ); }
+        
+        public static org.landxml.schema.landXML11.SurveyorCertificateDocument parse(javax.xml.stream.XMLStreamReader sr) throws org.apache.xmlbeans.XmlException {
+          return (org.landxml.schema.landXML11.SurveyorCertificateDocument) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( sr, type, null ); }
+        
+        public static org.landxml.schema.landXML11.SurveyorCertificateDocument parse(javax.xml.stream.XMLStreamReader sr, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException {
+          return (org.landxml.schema.landXML11.SurveyorCertificateDocument) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( sr, type, options ); }
+        
+        public static org.landxml.schema.landXML11.SurveyorCertificateDocument parse(org.w3c.dom.Node node) throws org.apache.xmlbeans.XmlException {
+          return (org.landxml.schema.landXML11.SurveyorCertificateDocument) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( node, type, null ); }
+        
+        public static org.landxml.schema.landXML11.SurveyorCertificateDocument parse(org.w3c.dom.Node node, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException {
+          return (org.landxml.schema.landXML11.SurveyorCertificateDocument) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( node, type, options ); }
+        
+        /** @deprecated {@link XMLInputStream} */
+        public static org.landxml.schema.landXML11.SurveyorCertificateDocument parse(org.apache.xmlbeans.xml.stream.XMLInputStream xis) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {
+          return (org.landxml.schema.landXML11.SurveyorCertificateDocument) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( xis, type, null ); }
+        
+        /** @deprecated {@link XMLInputStream} */
+        public static org.landxml.schema.landXML11.SurveyorCertificateDocument parse(org.apache.xmlbeans.xml.stream.XMLInputStream xis, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {
+          return (org.landxml.schema.landXML11.SurveyorCertificateDocument) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( xis, type, options ); }
+        
+        /** @deprecated {@link XMLInputStream} */
+        public static org.apache.xmlbeans.xml.stream.XMLInputStream newValidatingXMLInputStream(org.apache.xmlbeans.xml.stream.XMLInputStream xis) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {
+          return org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newValidatingXMLInputStream( xis, type, null ); }
+        
+        /** @deprecated {@link XMLInputStream} */
+        public static org.apache.xmlbeans.xml.stream.XMLInputStream newValidatingXMLInputStream(org.apache.xmlbeans.xml.stream.XMLInputStream xis, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {
+          return org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newValidatingXMLInputStream( xis, type, options ); }
+        
+        private Factory() { } // No instance of this class allowed
+    }
+}

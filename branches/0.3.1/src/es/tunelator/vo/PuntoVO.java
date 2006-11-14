@@ -31,6 +31,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Comparator;
 import java.util.Date;
+import java.util.StringTokenizer;
 
 import es.tunelator.Constants;
 import es.tunelator.log.Logger;
@@ -335,6 +336,17 @@ public class PuntoVO implements Cloneable {
 	public final void setTime(String time) {
 	    if(!time.equals(this.time)){
 	        String oldValue = this.time;
+            // WORKAROUND
+            // Leica Geosystems equipment sometimes give values of
+            // 60 seconds like 11:12:60, when it should have been 
+            // 11:13:00. We draw that back one second for simplicity.
+            int pos = time.lastIndexOf(":");
+            if(pos>0) {
+                String seconds = time.substring(pos+1);
+                if(seconds.equals("60")) {
+                    time = time.substring(0,pos)+":59";
+                }
+            } // Values can be empty, so a ':' may not be found
 			this.time = time;
 			if(fireAttributeChanges){
 			    support.firePropertyChange("time",oldValue,time);

@@ -71,6 +71,7 @@ import ca.odell.glazedlists.SortedList;
 import ca.odell.glazedlists.swing.TableComparatorChooser;
 import es.tunelator.AppParameters;
 import es.tunelator.UserMessageException;
+import es.tunelator.gui.commands.AddAxisFileCommand;
 import es.tunelator.gui.commands.AddFileCommand;
 import es.tunelator.gui.commands.AddPointCommand;
 import es.tunelator.gui.commands.CloseJobCommand;
@@ -158,6 +159,7 @@ public class MainFrame extends JFrame implements UndoCommandListener {
 	private JMenuItem newJobMenuItem = null;
 	private JMenuItem closeJobMenuItem = null;
 	private JMenuItem addFileMenuItem = null;
+    private JMenuItem addAxisFileMenuItem = null;
 	private JMenuItem removeFileMenuItem = null;
 	private JMenuItem removeProfileMenuItem = null;
 	private JMenuItem saveMenuItem = null;
@@ -452,9 +454,11 @@ public class MainFrame extends JFrame implements UndoCommandListener {
             }
             if(node != null && node.getLevel()>=1){
                 this.getAddFileMenuItem().setEnabled(true);
+                this.getAddAxisFileMenuItem().setEnabled(true);
                 this.getAddFileButton().setEnabled(true);
             } else {
                 this.getAddFileMenuItem().setEnabled(false);
+                this.getAddAxisFileMenuItem().setEnabled(false);
                 this.getAddFileButton().setEnabled(false);
             }
             this.getRemoveFileMenuItem().setEnabled(false);
@@ -496,13 +500,20 @@ public class MainFrame extends JFrame implements UndoCommandListener {
                 }
                 if(node != null && node.getLevel()>=1){
                     this.getAddFileMenuItem().setEnabled(true);
+                    this.getAddAxisFileMenuItem().setEnabled(true);
                     this.getAddFileButton().setEnabled(true);
+                    if(node.getLevel()>2) {
+                        this.getRemoveFileMenuItem().setEnabled(true);
+                        this.getRemoveFileButton().setEnabled(true);
+                    } else {
+                        this.getRemoveFileMenuItem().setEnabled(false);
+                        this.getRemoveFileButton().setEnabled(false);
+                    }
                 } else {
                     this.getAddFileMenuItem().setEnabled(false);
+                    this.getAddAxisFileMenuItem().setEnabled(false);
                     this.getAddFileButton().setEnabled(false);
                 }
-                this.getRemoveFileMenuItem().setEnabled(true);
-                this.getRemoveFileButton().setEnabled(true);
                 this.getSaveAllMenuItem().setEnabled(true);
                 this.getSaveAllButton().setEnabled(true);
                 this.getSaveAsMenuItem().setEnabled(true);
@@ -544,13 +555,20 @@ public class MainFrame extends JFrame implements UndoCommandListener {
                 }
                 if(node != null && node.getLevel()>=1){
                     this.getAddFileMenuItem().setEnabled(true);
+                    this.getAddAxisFileMenuItem().setEnabled(true);
                     this.getAddFileButton().setEnabled(true);
+                    if(node.getLevel()>2) {
+                        this.getRemoveFileMenuItem().setEnabled(true);
+                        this.getRemoveFileButton().setEnabled(true);
+                    } else {
+                        this.getRemoveFileMenuItem().setEnabled(false);
+                        this.getRemoveFileButton().setEnabled(false);
+                    }
                 } else {
                     this.getAddFileMenuItem().setEnabled(false);
+                    this.getAddAxisFileMenuItem().setEnabled(false);
                     this.getAddFileButton().setEnabled(false);
-                }
-                this.getRemoveFileMenuItem().setEnabled(true);
-                this.getRemoveFileButton().setEnabled(true);
+                } 
                 this.getSaveAllMenuItem().setEnabled(true);
                 this.getSaveAllButton().setEnabled(true);
                 this.getSaveAsMenuItem().setEnabled(true);
@@ -559,7 +577,7 @@ public class MainFrame extends JFrame implements UndoCommandListener {
                 this.getSaveButton().setEnabled(true);
                 this.getExportMenuItem().setEnabled(true);
                 this.getExportButton().setEnabled(true);
-        		if((node != null) && (node.getLevel()==3)){
+        		if((node != null) && (node.getLevel()==4)){
                     this.getRemoveProfileMenuItem().setEnabled(true);
                     this.getRemoveProfileButton().setEnabled(true);
         		} else {
@@ -651,6 +669,7 @@ public class MainFrame extends JFrame implements UndoCommandListener {
 			fileMenu.add(getCloseJobMenuItem());
 			fileMenu.add(new JSeparator());
 			fileMenu.add(getAddFileMenuItem());
+            fileMenu.add(getAddAxisFileMenuItem());
 			fileMenu.add(getRemoveFileMenuItem());
 			fileMenu.add(new JSeparator());
 			fileMenu.add(getSaveMenuItem());
@@ -1465,106 +1484,8 @@ public class MainFrame extends JFrame implements UndoCommandListener {
 			jTree.setExpandsSelectedPaths(true);
 			jTree.setRootVisible(false);
 			jTree.setSelectionModel(new JobsTreeSelectionModel());
-			jTree.addTreeSelectionListener(new javax.swing.event.
-			        TreeSelectionListener() { 
-				public void valueChanged(javax.swing.event.
-				        TreeSelectionEvent e) {
-				    try {
-					    DefaultMutableTreeNode node = (DefaultMutableTreeNode) 
-					    	MainFrame.this.jTree.
-					    		getLastSelectedPathComponent();
-					    if((node!=null)){
-					        MainFrame.this.getPointsTable().clearSelection();
-					        GUIFileVO file = null;
-					        switch (node.getLevel()){
-					        	case 0: MainFrame.this.getPointsTable().
-					        			setModel(new PointsTableModel(
-					        			        new BasicEventList(),
-					        			        new PointsTableFormat()));
-					        			displayedFile = null;
-					        			break;
-					        	case 1: if(node.getChildCount() > 0) {
-							        	    DefaultMutableTreeNode node1 = 
-							        	        (DefaultMutableTreeNode)node.
-							        	        	getFirstChild();
-							        		if(node1 != null){
-						        			    file = (GUIFileVO) 
-						        			    	((FileNodeUpdater)node1.
-						        			    	        getUserObject()).
-						        			    	        getUserObject();
-						        			    if(!file.equals(
-						        			            displayedFile)){
-							        			    MainFrame.this.
-							        			    	setDisplayedGUIFile(
-							        			    	        file,
-							        			    	        true);
-						        			    }
-						        			}
-					        			}
-					        			break;
-					        	case 2: file = (GUIFileVO) ((FileNodeUpdater)
-					        	        	node.getUserObject()).
-					        	        		getUserObject();
-					        			if(!file.equals(displayedFile)){
-					        			    MainFrame.this.setDisplayedGUIFile(
-					        			            file,true);
-					        			}
-							    		break;
-					        	case 3: MainFrame.this.cancelTableEditing();
-					        	    	DefaultMutableTreeNode fileNode = 
-					        	    	    (DefaultMutableTreeNode)node.
-					        	    	    	getParent();
-					        			file = (GUIFileVO) ((FileNodeUpdater)
-					        			        fileNode.getUserObject()).
-					        			        	getUserObject();
-						       			TreePath[] selected = MainFrame.this.
-						       				jTree.getSelectionPaths();
-						       			if(!file.equals(displayedFile)){
-					        			    MainFrame.this.setDisplayedGUIFile(
-					        			            file,false);
-					        			}
-						       			for(int i=0; i<selected.length; i++){
-						       			    if(((DefaultMutableTreeNode)selected[i].
-						       			            getLastPathComponent()).
-						       			            	getParent().
-						       			            	equals(fileNode)){
-							       			    DefaultMutableTreeNode selectedNode = 
-							       			        (DefaultMutableTreeNode)
-							       			        	selected[i].
-							       			        	getLastPathComponent();
-							       			    if(selectedNode.getLevel()==3){
-									       			ProfileVO group = 
-									       			    (ProfileVO)selectedNode.
-									       			    getUserObject();
-									       			selectProfilePoints(group.
-									       			        getElements());
-							       			    }
-						       			    }
-						       			}
-							    		break;
-					        }
-					        // If the selected file has undoable operations, 
-					        // enable the undo menu item, else disable it.
-					        if(file != null){
-					            if(file.getUndoManager().getStackSize()==0){
-					                MainFrame.this.getUndoMenuItem().
-					                	setEnabled(false);
-					            } else {
-					                MainFrame.this.getUndoMenuItem().
-					                	setEnabled(true);
-					            }
-					        }
-					        MainFrame.this.resetEnablementStatus();
-					    }
-				    } catch (InternalError ex) {
-				        Logger.logError(MainFrame.class,ex);
-				        MainFrame.this.showErrorMessage(Resourcer.getString(
-				                MainFrame.class,
-				                "error.internal.selectTreeNode"));
-				    }
-				}
-			});
-		}
+			jTree.addTreeSelectionListener(new MainTreeSelectionManager(this));
+        }
 		return jTree;
 	}
 	/**
@@ -1654,7 +1575,7 @@ public class MainFrame extends JFrame implements UndoCommandListener {
 	 * "mainframe.menu.edit.undo" text resource of this class. 	
 	 * @return javax.swing.JMenuItem	
 	 */    
-	private JMenuItem getUndoMenuItem() {
+	public JMenuItem getUndoMenuItem() {
 		if (undoMenuItem == null) {
 			undoMenuItem = new JMenuItem(Resourcer.getString(this.getClass(),
 			        "mainframe.menu.edit.undo"));
@@ -1782,6 +1703,33 @@ public class MainFrame extends JFrame implements UndoCommandListener {
 		}
 		return addFileMenuItem;
 	}
+    /**
+     * Initializes the add axis file menu item with the  
+     *  "mainframe.menu.jobs.addAxisFile" text resource of this class
+     * @return javax.swing.JMenuItem    
+     */    
+    private JMenuItem getAddAxisFileMenuItem() {
+        if (addAxisFileMenuItem == null) {
+            addAxisFileMenuItem = new JMenuItem(Resourcer.getString(
+                    this.getClass(),"mainframe.menu.jobs.addAxisFile"));
+            addAxisFileMenuItem.addActionListener(
+                    new java.awt.event.ActionListener() { 
+                public void actionPerformed(java.awt.event.ActionEvent e) {
+                    try {
+                        new AddAxisFileCommand(MainFrame.this).execute();
+                    } catch (UserMessageException ex) {
+                        MainFrame.this.showUserMessageException(ex);
+                    } catch (InternalError ex) {
+                        Logger.logError(MainFrame.class,ex);
+                        MainFrame.this.showErrorMessage(
+                                Resourcer.getString(MainFrame.class,
+                                        "error.internal.addFile"));
+                    }
+                }
+            });
+        }
+        return addAxisFileMenuItem;
+    }
 	/**
 	 * Initializes the remove file menu item with the 
 	 * "mainframe.menu.jobs.removeFile" text resource of this class

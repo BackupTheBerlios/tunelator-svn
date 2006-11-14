@@ -11,7 +11,7 @@
 </info>
 <variables>
    <variable name="PRODUCTNAME" value="Tunelator"/>
-   <variable name="VERSION" value="0.3.0"/>
+   <variable name="VERSION" value="0.3.1"/>
    <variable name="DIR.INSTALLER" value="./installer"/>
 </variables>
 <guiprefs resizable="no" width="800" height="600"/>
