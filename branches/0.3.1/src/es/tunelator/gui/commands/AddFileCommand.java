@@ -32,6 +32,7 @@ import javax.swing.tree.TreePath;
 import es.tunelator.UserMessageException;
 import es.tunelator.gui.adv.MainFrame;
 import es.tunelator.gui.models.FileNodeUpdater;
+import es.tunelator.gui.models.JobsTreeModel;
 import es.tunelator.gui.vo.GUIFileVO;
 import es.tunelator.plugins.readers.PlainFormatReader;
 import es.tunelator.plugins.transformers.SetIndexInProfile;
@@ -75,30 +76,32 @@ public class AddFileCommand implements Command {
     public void execute() throws UserMessageException {
 		DefaultMutableTreeNode node = (DefaultMutableTreeNode)frame.
 			getJTree().getLastSelectedPathComponent();
-		if((node != null) && (node.getLevel()>=1)){
+		if((node != null) && (node.getLevel()>=JobsTreeModel.JOB_LEVEL)){
 		    List data = null;
 		    // Get the job's node
-		    node = (DefaultMutableTreeNode) node.getPath()[1];
+            DefaultMutableTreeNode jobNode = (DefaultMutableTreeNode) 
+                node.getPath()[JobsTreeModel.JOB_LEVEL];
 		    JFileChooser chooser = new JFileChooser();
 		    int option = chooser.showOpenDialog(frame);
 		    if(option == JFileChooser.APPROVE_OPTION){
 		        File file = chooser.getSelectedFile();
 	            data = PlainFormatReader.readFile(file);
 	            try {
-	                // Asign the indexInPK attribute value to each point
-	                data = (List) SetIndexInProfile.transform(data);
+	               // Asign the indexInPK attribute value to each point
+	               data = (List) SetIndexInProfile.transform(data);
 	            } catch(TransformException e){
-	                throw new UserMessageException(
-	                        Resourcer.getString(this.getClass(),
-	                                "error.transform"));
+	               throw new UserMessageException(
+	                       Resourcer.getString(this.getClass(),
+	                               "error.transform"));
 	            }
+                // Create the new user interface file structure
 		        GUIFileVO guiFileVO = new GUIFileVO(file,data,
-		                PuntoVO.defaultComparator());
+		                PuntoVO.defaultComparator(),PuntoVO.class);
 		        // The tree model reads and parses the file, leaving the 
 	            // contents in the user object of the node that
 		        // represents the file.
 	            DefaultMutableTreeNode fileNode = frame.getJobsTreeModel().
-	            	addFile(node,guiFileVO);
+	            	addFile(jobNode,guiFileVO);
 	            // Extract the file object from the tree node
 	            GUIFileVO displayedFile = (GUIFileVO) (
 	                    (FileNodeUpdater) fileNode.getUserObject()).

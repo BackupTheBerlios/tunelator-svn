@@ -71,7 +71,7 @@ import ca.odell.glazedlists.SortedList;
 import ca.odell.glazedlists.swing.TableComparatorChooser;
 import es.tunelator.AppParameters;
 import es.tunelator.UserMessageException;
-import es.tunelator.gui.commands.AddAxisFileCommand;
+import es.tunelator.gui.commands.AddAlignmentFileCommand;
 import es.tunelator.gui.commands.AddFileCommand;
 import es.tunelator.gui.commands.AddPointCommand;
 import es.tunelator.gui.commands.CloseJobCommand;
@@ -238,7 +238,7 @@ public class MainFrame extends JFrame implements UndoCommandListener {
 	 */
 	private void initialize() {
 	    emptyFile = new GUIFileVO(null,new ArrayList(),
-	            PuntoVO.defaultComparator());
+	            PuntoVO.defaultComparator(),PuntoVO.class);
 	    // Menus will overlap the Canvas3D which is not lightweight but native.
 	    // Tell popup menus to be native too, so the Canvas3D does not overlap
 	    // them.
@@ -1716,7 +1716,7 @@ public class MainFrame extends JFrame implements UndoCommandListener {
                     new java.awt.event.ActionListener() { 
                 public void actionPerformed(java.awt.event.ActionEvent e) {
                     try {
-                        new AddAxisFileCommand(MainFrame.this).execute();
+                        new AddAlignmentFileCommand(MainFrame.this).execute();
                     } catch (UserMessageException ex) {
                         MainFrame.this.showUserMessageException(ex);
                     } catch (InternalError ex) {

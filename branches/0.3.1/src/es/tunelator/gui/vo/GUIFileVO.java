@@ -34,7 +34,6 @@ import ca.odell.glazedlists.ObservableElementList;
 import ca.odell.glazedlists.SortedList;
 import ca.odell.glazedlists.ObservableElementList.Connector;
 import es.tunelator.gui.undo.UndoManager;
-import es.tunelator.vo.PuntoVO;
 
 /**
  * &COPY; 2005 Juan Alvarez Ferrando
@@ -88,9 +87,10 @@ public class GUIFileVO {
      * @param file - The filesystem file
      * @param data - The <code>Collection</code> holding the data objetct
      * @param sortOrder - The <code>Comparator</code> that that gives the 
+     * @param beanClass - The bean type of the elements
      * sorting criterium
      */
-    public GUIFileVO(File file, Collection data, Comparator sortOrder){
+    public GUIFileVO(File file, Collection data, Comparator sortOrder,Class beanClass){
         this.file = file;
         if(file!=null){
             this.name = file.getName();
@@ -99,11 +99,25 @@ public class GUIFileVO {
         }
         this.data = new BasicEventList();
         this.data.addAll(data);
-        Connector dataConnector = GlazedLists.beanConnector(PuntoVO.class);
+        Connector dataConnector = GlazedLists.beanConnector(beanClass);
         this.liveData = new ObservableElementList(this.data, dataConnector);
         this.tableList = new SortedList(this.liveData, sortOrder);
         this.groups = new GroupingList(this.liveData, 
                 new ProfilePointGrouper().getComparator()); 
+    }
+    /**
+     * @param file
+     * @param data
+     */
+    public GUIFileVO(File file, Collection data){
+        this.file = file;
+        if(file!=null){
+            this.name = file.getName();
+        } else {
+            this.name = "";
+        }
+        this.data = new BasicEventList();
+        this.data.addAll(data);
     }
     /**
      * @return Returns the liveData.

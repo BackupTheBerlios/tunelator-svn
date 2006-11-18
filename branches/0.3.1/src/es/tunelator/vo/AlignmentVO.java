@@ -45,6 +45,20 @@ public class AlignmentVO {
         this.name = "";
     }
     /**
+     * Creates the aligmnet for the given name and list of components.
+     * Is used by AlignmentFileUpdater.
+     * @param name2
+     * @param name
+     */
+    public AlignmentVO(List<AlignmentComponentVO> name2, String name) {
+        if(components.isEmpty()){
+            throw new IllegalArgumentException(
+                    "Atempt to create ProfileVO with no points");
+        }
+        this.setComponents(components);
+        this.setName(name);
+    }
+    /**
      * Returns the list of geometric components
      * @return
      */
@@ -72,5 +86,11 @@ public class AlignmentVO {
     public void setName(String name) {
         this.name = name;
     }
-    
+    /**
+     * Returns the name
+     * @see java.lang.Object#toString()
+     */
+    public String toString(){
+        return name;
+    }
 }

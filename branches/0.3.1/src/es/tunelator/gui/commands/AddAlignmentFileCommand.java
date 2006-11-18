@@ -36,8 +36,8 @@ import es.tunelator.gui.adv.LandXMLFileFilter;
 import es.tunelator.gui.adv.MainFrame;
 import es.tunelator.gui.models.FileNodeUpdater;
 import es.tunelator.gui.models.JobsTreeModel;
-import es.tunelator.gui.vo.GUIAlignmentVO;
 import es.tunelator.gui.vo.GUIFileVO;
+import es.tunelator.gui.vo.GUIStaticFileVO;
 import es.tunelator.plugins.readers.LandXML11Reader;
 import es.tunelator.plugins.readers.PlainFormatReader;
 import es.tunelator.plugins.transformers.SetIndexInProfile;
@@ -50,7 +50,7 @@ import es.tunelator.vo.PuntoVO;
 /**
  * &COPY; 2005 Juan Alvarez Ferrando<p/>    
  * 
- * Executes the addition of an axis definition file in LandXML format to a job.
+ * Executes the addition of the alignment definitions in in LandXML file to a job.
  * This command can't be undone. Calling <code>undo</code> results in an
  * <code>InternalError</code>
  * 
@@ -92,34 +92,16 @@ public class AddAlignmentFileCommand implements Command {
             chooser.setFileFilter(new LandXMLFileFilter());
 		    int option = chooser.showOpenDialog(frame);
 		    if(option == JFileChooser.APPROVE_OPTION){
-                // Get the aliments node (if there's one)
-                String alignmentsNodeKey = Resourcer.getString(MainFrame.class,"mainframe.tree.alignmentsNode");
-                DefaultMutableTreeNode alignmentsNode = frame.getJobsTreeModel().
-                    getObjectTreeNode(jobNode,alignmentsNodeKey);
-                // If there isn't, create it
-                if(alignmentsNode == null) {
-                    alignmentsNode = new DefaultMutableTreeNode();
-                    alignmentsNode.setUserObject(alignmentsNodeKey);
-                    // Alignments is the first node under the job
-                    if(jobNode.getChildCount()>0) {
-                        treeModel.insertNodeInto(alignmentsNode,jobNode,0);
-                    } else {
-                        jobNode.add(alignmentsNode);
-                    }
-                }
 		        File file = chooser.getSelectedFile();
+                // Read the file and return the alignments
 	            LandXML11Reader reader = new LandXML11Reader(file); 
                 List<AlignmentVO> alignmentsList = reader.getAlignmentsList();
-                for (int i=0; i<alignmentsList.size(); i++){
-                    AlignmentVO alignmentVO = alignmentsList.get(i);
-                    String name = alignmentVO.getName();
-                    GUIAlignmentVO guiAlignmentVO = new GUIAlignmentVO(name,file,alignmentVO);
-                    DefaultMutableTreeNode alignmentNode = new DefaultMutableTreeNode();
-                    alignmentNode.setUserObject(guiAlignmentVO);
-                    alignmentsNode.add(alignmentNode);
-                }
-	            // Have the node of the file expanded and selected
-	            TreePath tp = new TreePath(alignmentsNode.getPath());
+                GUIStaticFileVO guiStaticFileVO = new GUIStaticFileVO(file,alignmentsList);
+                // Create the tree nodes with their corresponding user objects
+                DefaultMutableTreeNode alignmentsFileNode = frame.getJobsTreeModel().
+                    addAligmentsFile(jobNode,guiStaticFileVO);
+                // Select the alignments file in the tree
+	            TreePath tp = new TreePath(alignmentsFileNode.getPath());
 				frame.getJTree().expandPath(tp);
 				frame.getJTree().setSelectionPath(tp);
 			    // Force the update of the menu and menubar options state
