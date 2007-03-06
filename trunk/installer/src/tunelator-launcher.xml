@@ -4,7 +4,7 @@
   <outfile>C:\Proyectos\tunelator\trunk\installer\launcher\tunelator.exe</outfile>
   <errTitle>Tunelator</errTitle>
   <jarArgs></jarArgs>
-  <chdir>installer/launcher</chdir>
+  <chdir>.</chdir>
   <customProcName>true</customProcName>
   <stayAlive>false</stayAlive>
   <icon>C:\Proyectos\tunelator\trunk\images\tunelator.ico</icon>

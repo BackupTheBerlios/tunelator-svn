@@ -27,6 +27,11 @@ import java.util.Locale;
 import javax.swing.JOptionPane;
 import javax.swing.UIManager;
 
+import org.apache.commons.logging.LogFactory;
+import org.apache.commons.logging.impl.Log4JLogger;
+import org.apache.commons.logging.impl.LogFactoryImpl;
+import org.apache.log4j.PropertyConfigurator;
+
 import es.tunelator.gui.adv.MainFrame;
 import es.tunelator.log.Logger;
 import es.tunelator.resources.Resourcer;
@@ -72,6 +77,11 @@ public class Start {
 	public static void main(String[] args) {
         MainFrame frame = null;
         try {
+            
+//            LogFactory.getFactory().setAttribute(LogFactoryImpl.LOG_PROPERTY,
+//                    Log4JLogger.class.getName());
+//            PropertyConfigurator.configure(Start.class.getClassLoader().
+//                    getResource("log4j.properties"));
 // Set log level as configured at the application parameters            
             Logger.setLogThreshold(AppParameters.getParams().getProperty(
                                    "log.threshold",AppParameters.LOG_ERROR));

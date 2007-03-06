@@ -1903,7 +1903,7 @@ public class MainFrame extends JFrame implements UndoCommandListener {
 	private JFormatTableCellEditor getNumberTableEditor(boolean allowEmpty) {
 		if (numberTableEditor == null) {
 		    String patterns [] = {"-?","-?\\d{1,7}","-?\\d{1,7}\\.",
-		            "\\A-?\\d{1,7}(\\.\\d{1,3})?"};
+		            "\\A-?\\d{1,7}(\\.\\d{1,5})?"};
 			numberTableEditor = new JFormatTableCellEditor(patterns,allowEmpty);
 		}
 		return numberTableEditor;

@@ -71,7 +71,8 @@
         <copy todir="${project.binDir}" >
             <fileset dir="${project.sourceDir}"
                 includes="**/es/tunelator/**/*.properties,
-                        **/es/tunelator/images/*"/>
+                        **/es/tunelator/images/*,
+            			**/log4j.properties"/>
         </copy >
     </target >
 	
